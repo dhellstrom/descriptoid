@@ -3,10 +3,7 @@ import se.lth.cs.docforia.Document;
 import se.lth.cs.docforia.Node;
 import se.lth.cs.docforia.NodeEdge;
 import se.lth.cs.docforia.graph.text.*;
-import se.lth.cs.docforia.query.NodeTVar;
-import se.lth.cs.docforia.query.PropositionGroup;
-import se.lth.cs.docforia.query.QueryCollectors;
-import se.lth.cs.docforia.query.StreamUtils;
+import se.lth.cs.docforia.query.*;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -32,7 +29,7 @@ public class NovelProcessor {
 
         NodeTVar<Token> T = Token.var();
         NodeTVar<NamedEntity> NE = NamedEntity.var();
-        Stream<PropositionGroup> namedEntities = doc.select(T, NE) .where(T).coveredBy(NE)
+        Stream<PropositionGroup> namedEntities = doc.select(T, NE).where(T).coveredBy(NE)
                 .stream()
                 .collect(QueryCollectors.groupBy(doc, NE).orderByValue(T).collector())
                 .stream();
@@ -57,6 +54,8 @@ public class NovelProcessor {
      */
     public Map<String, List<Token>> extractDescriptions(Set<String> uniqueNames) {
 
+        Map<String, List<Token>> descriptionMap = new HashMap<>();
+
         NodeTVar<Token> T = Token.var();
         NodeTVar<CoreferenceChain> CC = CoreferenceChain.var();
         List<CoreferenceChain> chains = doc.select(CC)
@@ -65,7 +64,7 @@ public class NovelProcessor {
                 .map(StreamUtils.toNode(CC))
                 .collect(Collectors.toList());
 
-        Map<String, List<Token>> descriptionMap = new HashMap<>();
+        Set<Token> usedTokens = new HashSet<>();
 
         for (CoreferenceChain chain : chains) {
             List<CoreferenceMention> mentions = chain.inboundNodes(CoreferenceMention.class).toList();
@@ -78,39 +77,9 @@ public class NovelProcessor {
                             .stream()
                             .map(StreamUtils.toNode(T))
                             .collect(Collectors.toList());
+                    usedTokens.addAll(tokens);
                     for (Token token : tokens) {
-                        for (NodeEdge<Token, DependencyRelation> inbound : token.inboundNodeEdges(DependencyRelation.class, Token.class)) {
-                            Token inboundNode = inbound.node();
-                            DependencyRelation inboundEdge = inbound.edge();
-                            /*If the inbound node is an adjective describing the entity*/
-                            if (inboundNode.getCoarsePartOfSpeech().equals("ADJ") ) {
-                                description.addAll(extractAdjectives(inboundNode));
-
-                            /*If the inbound node is a body part we trý to find an adjective describing it*/
-                            } else if (inboundNode.getCoarsePartOfSpeech().equals("NOUN") && inboundEdge.getRelation().equals("nmod:poss")
-                                    && bodyParts.contains(inboundNode.getLemma())) {
-                                    description.addAll(extractBodyPart(inboundNode));
-
-                             /*If the inbound node is a verb */
-                            } else if (inboundNode.getCoarsePartOfSpeech().equals("VERB")) {
-                                /*If the verb is 'have' we see if the dobj is a body part and try to get the description of it*/
-                                if (inboundNode.getLemma().equals("have")) {
-                                    for (Token bodyPart : inboundNode.outboundNodes(Token.class)) {
-                                        if (bodyPart.getCoarsePartOfSpeech().equals("NOUN") && bodyParts.contains(bodyPart.getLemma())) {
-                                            description.addAll(extractMultipleBodyParts(bodyPart));
-                                        }
-                                    }
-                                }
-                                /*If it is some other word we try to find an adverb describing how it is done*/
-//                                else {
-//                                    for (Token verbDesc : inboundNode.outboundNodes(Token.class)) {
-//                                        if (verbDesc.getPartOfSpeech().equals("RB")) {
-//                                            description.append(verbDesc.getLemma() + " ");
-//                                        }
-//                                    }
-//                                }
-                            }
-                        }
+                        description.addAll(getDescriptions(token));
                     }
                 }
                 if (descriptionMap.containsKey(name)) {
@@ -120,7 +89,64 @@ public class NovelProcessor {
                 }
             }
         }
+
+        NodeTVar<NamedEntity> NE = NamedEntity.var();
+        List<Token> namedEntities = doc.select(T, NE).where(T).coveredBy(NE)
+                .stream()
+                .map(StreamUtils.toNode(T))
+                .collect(Collectors.toList());
+
+        for (Token t : namedEntities) {
+            if (!usedTokens.contains(t)) {
+                List<Token> description = getDescriptions(t);
+                if (description.size() > 0) {
+                    if (descriptionMap.containsKey(t.toString())) {
+                        descriptionMap.get(t.toString()).addAll(description);
+                    } else {
+                        descriptionMap.put(t.toString(), description);
+                    }
+                }
+            }
+        }
+
         return descriptionMap;
+    }
+
+    private List<Token> getDescriptions(Token token) {
+        List<Token> description = new LinkedList<>();
+        for (NodeEdge<Token, DependencyRelation> inbound : token.inboundNodeEdges(DependencyRelation.class, Token.class)) {
+            Token inboundNode = inbound.node();
+            DependencyRelation inboundEdge = inbound.edge();
+                            /*If the inbound node is an adjective describing the entity*/
+            if (inboundNode.getCoarsePartOfSpeech().equals("ADJ") ) {
+                description.addAll(extractAdjectives(inboundNode));
+
+                            /*If the inbound node is a body part we trý to find an adjective describing it*/
+            } else if (inboundNode.getCoarsePartOfSpeech().equals("NOUN") && inboundEdge.getRelation().equals("nmod:poss")
+                    && bodyParts.contains(inboundNode.getLemma())) {
+                description.addAll(extractBodyPart(inboundNode));
+
+                             /*If the inbound node is a verb */
+            } else if (inboundNode.getCoarsePartOfSpeech().equals("VERB")) {
+                                /*If the verb is 'have' we see if the dobj is a body part and try to get the description of it*/
+                if (inboundNode.getLemma().equals("have")) {
+                    for (Token bodyPart : inboundNode.outboundNodes(Token.class)) {
+                        if (bodyPart.getCoarsePartOfSpeech().equals("NOUN") && bodyParts.contains(bodyPart.getLemma())) {
+                            description.addAll(extractMultipleBodyParts(bodyPart));
+                        }
+                    }
+                }
+                                /*If it is some other word we try to find an adverb describing how it is done*/
+//                                else {
+//                                    for (Token verbDesc : inboundNode.outboundNodes(Token.class)) {
+//                                        if (verbDesc.getPartOfSpeech().equals("RB")) {
+//                                            description.append(verbDesc.getLemma() + " ");
+//                                        }
+//                                    }
+//                                }
+            }
+        }
+        return description;
     }
 
 
