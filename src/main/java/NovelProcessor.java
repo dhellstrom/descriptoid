@@ -77,9 +77,11 @@ public class NovelProcessor {
                             .stream()
                             .map(StreamUtils.toNode(T))
                             .collect(Collectors.toList());
-                    usedTokens.addAll(tokens);
                     for (Token token : tokens) {
-                        description.addAll(getDescriptions(token));
+                        if (!usedTokens.contains(token)) {
+                            usedTokens.add(token);
+                            description.addAll(getDescriptions(token));
+                        }
                     }
                 }
                 if (descriptionMap.containsKey(name)) {
@@ -100,10 +102,10 @@ public class NovelProcessor {
             if (!usedTokens.contains(t)) {
                 List<Token> description = getDescriptions(t);
                 if (description.size() > 0) {
-                    if (descriptionMap.containsKey(t.toString())) {
-                        descriptionMap.get(t.toString()).addAll(description);
+                    if (descriptionMap.containsKey(t.toString().toLowerCase())) {
+                        descriptionMap.get(t.toString().toLowerCase()).addAll(description);
                     } else {
-                        descriptionMap.put(t.toString(), description);
+                        descriptionMap.put(t.toString().toLowerCase(), description);
                     }
                 }
             }
@@ -118,7 +120,7 @@ public class NovelProcessor {
             Token inboundNode = inbound.node();
             DependencyRelation inboundEdge = inbound.edge();
                             /*If the inbound node is an adjective describing the entity*/
-            if (inboundNode.getCoarsePartOfSpeech().equals("ADJ") ) {
+            if (inboundNode.getCoarsePartOfSpeech().equals("ADJ") && inboundEdge.getRelation().equals("nsubj")) {
                 description.addAll(extractAdjectives(inboundNode));
 
                             /*If the inbound node is a body part we trý to find an adjective describing it*/
