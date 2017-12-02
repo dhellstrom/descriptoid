@@ -22,7 +22,7 @@ public class HttpRequester {
     }
 
     public static byte[] requestBinary(String query) {
-        byte[] data = new byte[1024];
+        byte[] data = new byte[4096];
         ByteArrayOutputStream buffer = new ByteArrayOutputStream();
         int nRead;
 

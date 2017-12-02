@@ -37,3 +37,5 @@ eyelash
 tooth
 toe
 tongue
+feature
+figure

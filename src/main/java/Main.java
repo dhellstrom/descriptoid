@@ -10,6 +10,8 @@ import org.rapidoid.setup.App;
 import org.rapidoid.setup.On;
 import org.rapidoid.u.U;
 import se.lth.cs.docforia.Document;
+import se.lth.cs.docforia.graph.text.CoreferenceMention;
+import se.lth.cs.docforia.graph.text.NamedEntity;
 import se.lth.cs.docforia.graph.text.Sentence;
 import se.lth.cs.docforia.graph.text.Token;
 import se.lth.cs.docforia.memstore.MemoryDocument;
@@ -17,10 +19,13 @@ import se.lth.cs.docforia.query.NodeTVar;
 import se.lth.cs.docforia.query.StreamUtils;
 
 import java.io.BufferedWriter;
+import java.io.IOException;
 import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class Main {
 	public static void main(String[] args) {
@@ -68,11 +73,11 @@ public class Main {
 //                return resp;
 //            });
 
-            String fileName = "pg120";
+            String fileName = "warbreaker1";
 //		    Novel novel = GutenbergReader.readNovel(Paths.get("corpus/" + fileName + ".txt"));
 //		    byte[] binary = HttpRequester.requestBinary(novel.getContent());
 //            Document doc = MemoryDocument.fromBytes(binary);
-            Document doc = DocforiaReader.readJsonFile(Paths.get("annotations/" + fileName +".txt"));
+            Document doc = DocforiaReader.readBinaryFile(Paths.get("annotations/" + fileName +".txt"));
             NovelProcessor processor = new NovelProcessor(doc);
             Set<String> uniqueNames = processor.extractUniqueNames();
 
@@ -81,7 +86,6 @@ public class Main {
             Map<String, Set<String>> clusters = processor.nameClusters(uniqueNames);
 
             processor.clusterNames(clusters, descriptionMap);
-
 
 
 
@@ -97,9 +101,18 @@ public class Main {
                         if (t.getCoarsePartOfSpeech().equals("NOUN")) {
                             Token desc = descIterator.next();
                             sb.append(desc.getLemma().toLowerCase() + "_" + t.toString().toLowerCase() + " ");
+                        } else if(t.getLemma().equals("not")) {
+                            Token adjective = descIterator.next();
+                            sb.append(t.getLemma().toLowerCase() + "_" + adjective.getLemma().toLowerCase() + " ");
                         } else {
                             sb.append(t.toString().toLowerCase() + " ");
                         }
+//                        NodeTVar<Sentence> S = Sentence.var();
+//                        List<Sentence> sentences = doc.select(S).where(S).covering(t)
+//                                .stream()
+//                                .map(StreamUtils.toNode(S))
+//                                .collect(Collectors.toList());
+//                        sb.append(sentences.get(0) + " ");
                     }
                     writer.write(sb.toString() + "\n");
                 }
@@ -107,9 +120,11 @@ public class Main {
 
             writer.close();
 
+//
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+
 	}
 
 }
