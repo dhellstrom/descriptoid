@@ -69,12 +69,7 @@ public class NovelProcessor {
         Map<String, List<Token>> descriptionMap = new LinkedHashMap<>();
 
         NodeTVar<Token> T = Token.var();
-        NodeTVar<CoreferenceChain> CC = CoreferenceChain.var();
-        List<CoreferenceChain> chains = doc.select(CC)
-                .stream()
-                .sorted(StreamUtils.orderBy(CC))
-                .map(StreamUtils.toNode(CC))
-                .collect(Collectors.toList());
+        List<CoreferenceChain> chains = getCoreferenceChains();
 
         Set<Token> usedEntities = new HashSet<>();
         Set<Token> usedDescriptions = new HashSet<>();
@@ -120,7 +115,6 @@ public class NovelProcessor {
                     } else {
                         descriptionMap.put(t.toString().toLowerCase(), description);
                     }
-                } else {
                 }
             }
         }
@@ -133,17 +127,13 @@ public class NovelProcessor {
         Random rand = new Random(42);
         Map<Sentence, Integer> sentenceMap = new HashMap<>();
 
-        NodeTVar<Token> T = Token.var();
-        NodeTVar<CoreferenceChain> CC = CoreferenceChain.var();
-        List<CoreferenceChain> chains = doc.select(CC)
-                .stream()
-                .sorted(StreamUtils.orderBy(CC))
-                .map(StreamUtils.toNode(CC))
-                .collect(Collectors.toList());
+
+        List<CoreferenceChain> chains = getCoreferenceChains();
 
         Set<Token> usedEntities = new HashSet<>();
         Set<Token> usedDescriptions = new HashSet<>();
 
+        NodeTVar<Token> T = Token.var();
         for (CoreferenceChain chain : chains) {
             List<CoreferenceMention> mentions = chain.inboundNodes(CoreferenceMention.class).toList();
             String name = mostFrequentName(mentions, uniqueNames);
@@ -199,6 +189,62 @@ public class NovelProcessor {
             }
         }
         return sentenceMap;
+    }
+
+    /**
+     *  Finds all mentions that can be linked to a named entity and returns them as a map
+     *  where the key is the entity name and the value is a list containing the Tokens corresponding
+     *  to mentions of that entity.
+     */
+    public Map<String, List<Token>> getEntityMentions(Set<String> uniqueNames) {
+
+        Map<String, List<Token>> entityMap = new HashMap<>();
+
+        NodeTVar<Token> T = Token.var();
+        List<CoreferenceChain> chains = getCoreferenceChains();
+
+        Set<Token> usedEntities = new HashSet<>();
+
+        for (CoreferenceChain chain : chains) {
+            List<CoreferenceMention> mentions = chain.inboundNodes(CoreferenceMention.class).toList();
+            String name = mostFrequentName(mentions, uniqueNames);
+            if (name != null) {
+                List<Token> entityTokens = new LinkedList<>();
+                for (CoreferenceMention mention : mentions) {
+
+                    List<Token> tokens = doc.select(T).where(T).coveredBy(mention)
+                            .stream().map(StreamUtils.toNode(T)).collect(Collectors.toList());
+                    entityTokens.addAll(tokens);
+                    usedEntities.addAll(tokens);
+                }
+
+                if (entityMap.containsKey(name)) {
+                    entityMap.get(name).addAll(entityTokens);
+                } else {
+                    entityMap.put(name, entityTokens);
+                }
+            }
+        }
+
+        NodeTVar<NamedEntity> NE = NamedEntity.var();
+        List<Token> namedEntities = doc.select(T, NE).where(T).coveredBy(NE)
+                .stream()
+                .map(StreamUtils.toNode(T))
+                .collect(Collectors.toList());
+
+        for (Token t : namedEntities) {
+            if (!usedEntities.contains(t)) {
+                if (entityMap.containsKey(t.toString().toLowerCase())) {
+                    entityMap.get(t.toString().toLowerCase()).add(t);
+                } else {
+                    List<Token> list = new LinkedList<>();
+                    list.add(t);
+                    entityMap.put(t.toString().toLowerCase(), list);
+                }
+            }
+        }
+
+        return entityMap;
     }
 
     private List<Token> getDescriptions(Token token, Set<Token> usedDescriptions) {
@@ -395,5 +441,15 @@ public class NovelProcessor {
             adjectives.add(adjective);
             usedDescriptions.add(adjective);
         }
+    }
+
+    private List<CoreferenceChain> getCoreferenceChains() {
+        NodeTVar<Token> T = Token.var();
+        NodeTVar<CoreferenceChain> CC = CoreferenceChain.var();
+        return doc.select(CC)
+                .stream()
+                .sorted(StreamUtils.orderBy(CC))
+                .map(StreamUtils.toNode(CC))
+                .collect(Collectors.toList());
     }
 }

@@ -13,17 +13,17 @@ import java.util.stream.Stream;
 public class AnnotateAndSave {
 
     public static void main(String[] args) {
-        String fileName = "pg3748.txt";
+        String fileName = "16-0.txt";
 //        try (Stream<Path> paths = Files.walk(Paths.get("corpus/"))) {
 
 //            paths.filter(Files::isRegularFile).map(s -> s.toString().split("\\\\")[1]).forEach(fileName -> {
 
                 System.out.println(fileName);
-                Novel novel = GutenbergReader.readNovel(Paths.get("corpus/" + fileName));
+                Novel novel = GutenbergReader.readNovel(Paths.get("test_corpus/" + fileName));
                 byte[] binary = HttpRequester.requestBinary(novel.getContent());
 
                 try {
-                    OutputStream writer = Files.newOutputStream(Paths.get("annotations/" + fileName));
+                    OutputStream writer = Files.newOutputStream(Paths.get("test_annotations/" + fileName));
                     writer.write(binary);
                     writer.close();
                 } catch (IOException e) {

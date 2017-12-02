@@ -30,6 +30,7 @@ public class DocforiaReader {
                 buffer.write(data, 0, nRead);
             }
             buffer.flush();
+            stream.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
