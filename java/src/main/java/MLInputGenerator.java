@@ -24,7 +24,7 @@ public class MLInputGenerator {
 
         if (args.length == 1) {
             String fileName = args[0];
-            Document doc = DocforiaReader.readBinaryFile(Paths.get("test_annotations/" + fileName + ".txt"));
+            Document doc = DocforiaReader.readBinaryFile(Paths.get("annotations/" + fileName + ".txt"));
             NovelProcessor processor = new NovelProcessor(doc);
             Set<String> uniqueNames = processor.extractUniqueNames();
 
