@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="docforia">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/docforia_jar" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/docforia_jar" recursive="false" />
+  </library>
+</component>

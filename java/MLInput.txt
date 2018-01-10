@@ -1,0 +1,394 @@
+###third
+The Third Heightening-the level of Breath at which a person gained the ability to sense perfect hues of color, just like the Second Heightening gave someone perfect pitch. DT NNP NN NN IN NN IN WDT DT NN VBD DT NN TO NN JJ NNS IN NN , RB IN DT JJ VBG VBD NN JJ NN . compound case compound nmod det dobj punct nsubj mark case det acl dobj nsubj nmod case det amod compound case acl:relcl advmod acl:relcl dobj nmod punct nmod det amod 
+###mike
+Mike, his high priest, was a tall, portly man with spectacles and a calm demeanor. NNP , PRP$ JJ NN , VBD DT JJ , JJ NN IN NNS CC DT JJ NN . appos amod cc amod punct nsubj amod nmod:poss punct case det amod cop punct nmod punct det conj 
+Lightsong turned to Mike, feeling guilty at his sudden energy. NNP VBD TO NNP , VBG JJ IN PRP$ JJ NN . amod advcl punct punct nsubj case nmod nmod nmod:poss xcomp case 
+###biochromatic
+He had a deific BioChromatic aura, a physique that any man would envy, and enough luxury for ten kings. PRP VBD DT JJ NNP NN , DT NN IN DT NN MD VB , CC RB NN IN CD NNS . det det cc punct ccomp compound amod dobj nsubj aux nsubj punct nummod appos case amod det mark punct conj nmod 
+###heightening-the
+The Third Heightening-the level of Breath at which a person gained the ability to sense perfect hues of color, just like the Second Heightening gave someone perfect pitch. DT NNP NN NN IN NN IN WDT DT NN VBD DT NN TO NN JJ NNS IN NN , RB IN DT JJ VBG VBD NN JJ NN . compound case compound nmod det dobj punct nsubj mark case det acl dobj nsubj nmod case det amod compound case acl:relcl advmod acl:relcl dobj nmod punct nmod det amod 
+###lightsong
+"What, then, do you remember of your dreams last night?" `` WP , RB , VBP PRP VB IN PRP$ NNS JJ NN . '' dobj punct nmod:tmod case nsubj root punct amod nmod:poss advmod nmod punct aux punct 
+Mike nodded, rising and shooing back the servants-though, of course, they remained in the room, hovering with their plates of food, wine, and fruit, should any of it be wanted. NNP VBD , VBG CC VBG RP DT NN , IN NN , PRP VBD IN DT NN , VBG IN PRP$ NNS IN NN , NN , CC NN , MD DT IN PRP VB VBN . nmod case conj punct conj conj punct case nmod nmod:poss nmod case punct punct parataxis aux cc dep case nsubj punct xcomp nmod nmod dobj det det auxpass xcomp punct compound:prt punct nsubjpass nsubj punct case cc 
+"Well, then," Mike said, flipping a page over, "consider it officially remembered that you have no Petitions today. `` UH , RB , '' NNP VBD , VBG DT NN IN , `` VB PRP RB VBD IN PRP VBP DT NNS NN . punct ccomp nmod:tmod ccomp punct punct advmod det punct dobj dobj nsubj xcomp punct neg discourse mark punct nsubj nsubj punct advmod punct ccomp advmod 
+It was just that... well, he was probably the world's only god who didn't believe in his own religion. PRP VBD RB DT : RB , PRP VBD RB DT NN POS JJ NN WP VBD RB VB IN PRP$ JJ NN . advmod advmod acl:relcl punct punct dep nsubj amod nmod det cop punct aux amod cop nsubj neg case nmod:poss case advmod nsubj nmod:poss 
+"As soon as she arrives, your grace." `` RB RB IN PRP VBZ , PRP$ NN . '' mark nsubj punct advmod punct advmod punct nmod:poss punct advcl 
+Lightsong walked on rugs from the northern nations, passing the finest pottery from across the inner sea. NNP VBD IN NNS IN DT JJ NNS , VBG DT JJS NN IN IN DT JJ NN . det case det punct case dobj punct nsubj case nmod nmod advcl amod nmod case det amod amod 
+Interesting, Lightsong thought. JJ , JJ NN . punct amod punct amod 
+Lightsong groaned softly, unable to sleep any longer. NNP VBD RB , JJ TO VB DT JJR . mark punct punct advmod advmod nsubj xcomp advmod xcomp 
+"That's it, I assume?" `` DT VBZ PRP , PRP VB . '' ccomp punct punct nsubj root nsubj punct nsubj 
+I don't know where it was going." PRP VBP RB VB WRB PRP VBD VBG . '' ccomp aux punct nsubj nsubj punct advmod neg aux 
+Lightsong fell into step beside Mike, towering a good foot over the priest. NNP VBD IN NN IN NNP , VBG DT JJ NN IN DT NN . det amod punct nmod nmod dobj case case case nsubj nmod punct advcl det 
+Mike paused, paling just slightly. NNP VBD , VBG RB RB . advmod punct advmod xcomp nsubj punct 
+Lightsong chuckled. NNP VBD . nsubj punct 
+That he remembered. IN PRP VBD . punct nsubj mark 
+Lightsong asked. NNP VBD . punct nsubj 
+It was good to keep the priests guessing at what would please him, or so some of the gods said. PRP VBD JJ TO VB DT NNS VBG IN WP MD VB PRP , CC RB DT IN DT NNS VBD . xcomp mark det nsubj dobj det cop xcomp aux advcl nsubj nsubj conj punct case cc nsubj advmod punct nmod mark 
+"Indeed, your grace. `` RB , PRP$ NN . punct punct punct advmod nmod:poss 
+Mike shook his head. NNP VBD PRP$ NN . nmod:poss dobj punct nsubj 
+He folded his arms and rested against the side of the doorway. PRP VBD PRP$ NNS CC VBD IN DT NN IN DT NN . punct nmod det case dobj conj nmod nmod:poss nsubj cc case det 
+Doesn't he ever get annoyed? VBZ RB PRP RB VBP VBN . auxpass neg nsubjpass advmod punct aux 
+He nodded as the lesser priest-who stood a distance away-recorded Lightsong's words. PRP VBD IN DT JJR JJ VBD DT NN JJ NNP POS NNS . amod advcl nmod:poss punct mark nsubj det dobj amod det nsubj compound case 
+"All right," he said. `` DT RB , '' PRP VBD . punct nsubj advmod punct punct dep punct 
+Now that Offerings were done, it would be time to move on to the final-and least appealing-of his daily tasks. RB IN NNS VBD VBN , PRP MD VB NN TO VB IN TO DT JJ JJS JJ PRP$ JJ NNS . advmod aux acl cop advcl dep case nmod det advmod mark punct amod nsubjpass advmod punct amod nmod:poss auxpass nsubj mark 
+Lightsong lounged back again, opening his eyes and looking up at the ceiling and its brightly colored fields. NNP VBD RB RB , VBG PRP$ NNS CC VBG RP IN DT NN CC PRP$ RB VBN NNS . amod det cc advmod punct nmod:poss nmod nmod:poss punct conj nsubj advmod conj cc case advmod ccomp compound:prt dobj 
+His weakness vanished, the dizziness evaporated. PRP$ NN VBD , DT NN VBN . nmod:poss ccomp nsubj punct det nsubj punct 
+A priest scuttled forward with the red tome, and Mike started writing furiously. DT NN VBD RB IN DT JJ NN , CC NNP VBD VBG RB . nmod advmod cc conj nsubj punct case det det punct xcomp advmod amod nsubj 
+Lightsong sighed. NNP VBD . punct nsubj 
+He'd never actually been to the jungle. PRP MD RB RB VBN TO DT NN . advmod det nsubj neg cop punct aux case 
+He felt dizzy. PRP VBD JJ . xcomp punct nsubj 
+And Lightsong would live for another week. CC NNP MD VB IN DT NN . case cc det aux nmod nsubj punct 
+It would give him strength enough to live for another week. PRP MD VB PRP NN RB TO VB IN DT NN . acl nmod mark det case nsubj dobj punct advmod iobj aux 
+"It's all right," Lightsong said. `` PRP VBZ RB RB , '' NNP VBD . nsubj punct advmod punct nsubj punct ccomp punct cop 
+It seemed his duty, and for some reason it was one of the few things he took seriously. PRP VBD PRP$ NN , CC IN DT NN PRP VBD CD IN DT JJ NNS PRP VBD RB . det nsubj det nmod acl:relcl nsubj acl:relcl dobj conj punct punct nsubj amod case cop nmod:poss case cc advmod 
+"Your grace," Mike said. `` PRP$ NN , '' NNP VBD . nmod:poss punct punct nsubj nsubj punct punct 
+Lightsong said. NNP VBD . nsubj punct 
+Offerings done, dreams recorded, and petitions canceled, Lightsong was free to pursue his own activities. NNS VBN , VBZ VBN , CC NNS VBN , NNP VBD JJ TO VB PRP$ JJ NNS . cc punct conj nsubj punct cop acl mark acl xcomp acl:relcl nsubj amod punct nmod:poss dobj punct xcomp 
+Lightsong didn't have the patience for things like that, especially since all anyone really ever seemed to want from him was honesty. NNP VBD RB VB DT NN IN NNS IN DT , RB IN DT NN RB RB VBD TO VB IN PRP VBD NN . aux nsubj acl:relcl nsubj punct advmod nsubj neg nmod cop punct advmod nmod det det case mark nmod case advmod mark xcomp ccomp case 
+Mike seemed to like this response. NNP VBD TO VB DT NN . det punct xcomp nsubj mark dobj 
+Lightsong froze. NNP VBD . punct nsubj 
+"I've decided to give you a new nickname. `` PRP VBP VBN TO VB PRP DT JJ NN . nsubj iobj root dobj xcomp det aux amod punct mark 
+Lightsong hesitated, but his weakness was coming to a head. NNP VBD , CC PRP$ NN VBD VBG TO DT NN . nsubj nmod cc nsubj aux det nmod:poss conj punct case punct 
+"And a ship was leaving without me. `` CC DT NN VBD VBG IN PRP . aux det nmod cc nsubj punct case punct 
+Instead, he made his way out onto his patio deck and waved for a pavilion to be set up for him. RB , PRP VBD PRP$ NN IN IN PRP$ NN NN CC VBD IN DT NN TO VB VBN RP IN PRP . case compound conj auxpass punct nmod punct case nmod mark det compound:prt advmod nsubj case dobj mark nsubjpass cc nmod:poss advcl nmod:poss 
+"I slept fantastically, Scoot," Lightsong said, yawning. `` PRP VBD RB , NNP , '' NNP VBD , VBG . punct xcomp nsubj advmod dobj punct punct nsubj ccomp punct punct punct 
+The servants continued their ministrations, draping him with cloth. DT NNS VBD PRP$ NNS , VBG PRP IN NN . nmod:poss case dobj nmod advcl det punct dobj nsubj punct 
+he asked. PRP VBD . punct nsubj 
+he thought. PRP VBD . punct nsubj 
+As a Returned, Lightsong didn't need to eat such things-they would not give him strength or banish his fatigue. IN DT NNP , NNP VBD RB VB TO VB JJ NN MD RB VB PRP NN CC VB PRP$ NN . conj case aux neg mark xcomp nmod:poss nsubj aux punct dep dobj det punct dobj dobj neg nmod iobj cc amod 
+Nothing at all...   And still, as she met his eyes as she left, and he could see that the twinkle was gone from them. NN IN DT : CC RB , IN PRP VBD PRP$ NNS IN PRP VBD , CC PRP MD VB IN DT NN VBD VBN IN PRP . case nsubjpass conj punct aux punct det punct nmod:poss dobj mark auxpass mark nsubj nsubj cc cc case nsubj nmod punct root ccomp conj nmod advcl mark 
+Both robes and tome burst with color as they entered Lightsong's aura. DT NNS CC NN NN IN NN IN PRP VBD NNP POS NN . punct advcl dobj nsubj nmod conj nmod:poss cc:preconj mark compound case case cc 
+Mike hesitated. NNP VBD . nsubj punct 
+He felt invigorated, revitalized, alive. PRP VBD JJ , JJ , JJ . conj conj punct nsubj punct punct xcomp 
+It was a vision one of his predecessors had seen, or so he was told. PRP VBD DT NN CD IN PRP$ NNS VBD VBN , CC RB PRP VBD VBN . nsubj aux nmod case nsubj advmod punct auxpass nsubjpass acl:relcl cop cc punct det nmod:poss conj 
+Mike's pen began to scratch quickly. NNP POS NN VBD TO VB RB . mark case xcomp nsubj punct advmod nmod:poss 
+They continued down the line, Lightsong giving reviews of the various paintings and poems. PRP VBD RP DT NN , NNP VBG NNS IN DT JJ NNS CC NNS . acl conj case amod case punct det nmod punct dobj nsubj det cc dobj nmod 
+He wondered if the priests knew just how much their Gods gossiped about the outside world. PRP VBD IN DT NNS VBD RB WRB JJ PRP$ NNS VBN IN DT JJ NN . advcl advmod case amod nsubj nsubj det ccomp nmod:poss det nsubj nmod mark punct advmod advmod 
+Lightsong was a good head and a half taller than anyone else in the room. NNP VBD DT JJ NN CC DT NN JJR IN NN RB IN DT NN . det dep det cop conj case punct nmod det advmod nmod case nsubj amod cc 
+"I'm sure," Mike said, nodding to one of his aids outside the room. `` PRP VBP JJ , '' NNP VBD , VBG TO CD IN PRP$ NNS IN DT NN . nmod cop nmod punct punct punct nmod xcomp case punct ccomp punct nsubj nsubj nmod:poss case case det 
+I need to give something back, Lightsong thought. PRP VBP TO VB NN RB , NNP VBD . ccomp xcomp dobj compound:prt nsubj punct nsubj mark punct 
+He almost gave this one a poor grade simply because of that. PRP RB VBD DT CD DT JJ NN RB IN IN DT . nsubj dobj det det mwe advmod amod advmod case iobj punct nmod 
+He reached over idly, plucking some cherries off a servant's plate. PRP VBD IN RB , VBG DT NNS IN DT NN POS NN . det nmod punct nmod det nsubj case case xcomp case dobj punct nmod:poss 
+The furniture and doorways, however, were built to fit Lightsong's increased size, so it was the servants and priests who seemed out of place in the palace. DT NN CC NNS , RB , VBD VBN TO VB NNP POS VBN NN , IN PRP VBD DT NNS CC NNS WP VBD IN IN NN IN DT NN . punct det case nmod punct nmod:poss mark cop advcl advmod case case conj det cc mark nsubjpass dobj auxpass nmod xcomp case punct det cc amod nsubj punct acl:relcl nsubj conj 
+Mike asked. NNP VBD . punct nsubj 
+"Yes," Lightsong said. `` UH , '' NNP VBD . punct punct punct nsubj discourse punct 
+Vague impressions from his dream returned to him. JJ NNS IN PRP$ NN VBD TO PRP . nsubj nmod:poss case nmod punct amod nmod case 
+"So," Lightsong said. `` RB , '' NNP VBD . punct punct nsubj advmod punct punct 
+He simply waved a lesser priest over, then began to flip through some pages on a clipboard. PRP RB VBD DT JJR NN IN , RB VBD TO VB IN DT NNS IN DT NN . nsubj punct compound:prt case punct det dobj dep amod nmod advmod nmod xcomp det mark case det advmod 
+Lightsong sensed that many of them were far more calculating in the way that they gave their reviews, intentionally adding cryptic meanings. NNP VBD IN JJ IN PRP VBD RB RBR VBG IN DT NN IN PRP VBD PRP$ NNS , RB VBG JJ NNS . case nsubj ccomp aux det nmod:poss nmod advmod dobj advmod dobj nmod mark mark ccomp advcl nsubj punct punct nsubj amod advmod case 
+He couldn't use it animate objects or corpses; he was a god, not an Awakener. PRP MD RB VB PRP VB NNS CC NNS : PRP VBD DT NN , RB DT NNP . parataxis aux dobj punct nsubj det cop nsubj neg ccomp conj punct punct det cc appos neg nsubj 
+For some reason, I think the ocean water was red, like the ship." IN DT NN , PRP VBP DT NN NN VBD JJ , IN DT NN . '' case punct punct nmod det punct nsubj case det punct compound nsubj cop det ccomp nmod 
+He saw little use to it. PRP VBD JJ NN TO PRP . case dobj nsubj amod punct nmod 
+Colors, Lightsong thought. NNS , NNP VBD . punct punct nsubj ccomp 
+He had to get through them before he could get to more important activities, like taking a nap. PRP VBD TO VB IN PRP IN PRP MD VB TO RBR JJ NNS , IN VBG DT NN . mark det dobj nmod advmod xcomp punct advcl amod punct advcl case aux nmod mark case nsubj mark nsubj 
+Why should he begrudge the people his dreams? WRB MD PRP VB DT NNS PRP$ NNS . xcomp nmod:poss det nsubj aux advmod nsubj punct 
+He was probably finding all kinds of symbolism in the memory. PRP VBD RB VBG DT NNS IN NN IN DT NN . nsubj advmod nmod punct aux case case dobj nmod det det 
+"Good color," he said. `` JJ NN , '' PRP VBD . punct punct dep punct nsubj amod punct 
+Lightsong demanded. NNP VBD . nsubj punct 
+Lightsong leaned his head back, resting it against the wall, looking up at the white ceiling. NNP VBD PRP$ NN RB , VBG PRP IN DT NN , VBG RP IN DT JJ NN . xcomp nmod punct dobj punct det punct compound:prt dobj case det nmod:poss nmod advcl advmod amod nsubj case 
+At least, that was what Lightsong had heard. IN JJS , DT VBD WP NNP VBD VBN . advmod aux ccomp dobj nsubj punct nsubj mwe punct 
+He gave the peasant's poem as good a review as he could, though he generally felt an impulse to be honest when he looked at Offerings. PRP VBD DT NN POS NN IN JJ DT NN IN PRP MD , IN PRP RB VBD DT NN TO VB JJ WRB PRP VBD IN NNS . nmod:poss punct punct advcl nmod dobj nsubj amod mark case nmod dobj advcl mark det case advmod acl advmod det advcl nsubj nsubj cop det case mark nsubj 
+It was an abstract work, a style that was growing more and more popular lately-particularly in paintings sent to him, since he'd given favorable reviews to others in the past. PRP VBD DT JJ NN , DT NN WDT VBD VBG RBR CC RBR JJ JJ IN NNS VBN TO PRP , IN PRP MD VBN JJ NNS TO NNS IN DT NN . punct case aux punct nmod appos xcomp acl:relcl punct case nsubj advmod cop acl case det nsubj case nmod advcl conj nmod mark advmod amod det dobj det nsubj amod cc aux nmod 
+Lightsong closed his eyes, trying to focus. NNP VBD PRP$ NNS , VBG TO VB . nmod:poss punct dobj advcl mark punct xcomp nsubj 
+Lightsong nodded. NNP VBD . punct nsubj 
+I shouldn't be so cynical, Lightsong thought. PRP MD RB VB RB JJ , JJ NN . amod dep punct advmod nsubj aux neg cop punct 
+The prominent hue was a deep red, almost a crimson, that Lightsong immediately knew was a red-blue mixture with a hint of black in it. DT JJ NN VBD DT JJ NN , RB DT JJ , IN NNP RB VBD VBD DT JJ NN IN DT NN IN JJ IN PRP . nmod det case amod det advmod det amod advmod nmod cop nmod appos cop case punct case nsubj ccomp det punct punct acl:relcl dobj det nsubj amod 
+Your priests will be otherwise employed." PRP$ NNS MD VB RB VBN . '' aux auxpass punct punct nsubjpass nmod:poss advmod 
+"Fledgling fruit," he said, giving up one of the Command phrases that would let others control the city's Lifeless. `` NN NN , '' PRP VBD , VBG RP CD IN DT NN NNS WDT MD VB NNS VBP DT NN POS JJ . punct parataxis nsubj compound:prt case acl:relcl punct nsubj det nsubj nsubj dobj punct ccomp compound nmod compound case aux punct dobj det punct nmod:poss 
+Lightsong fell silent, turning away from the men and their scribbling pens. NNP VBD JJ , VBG RB IN DT NNS CC PRP$ VBG NNS . punct conj det xcomp dep nmod nmod:poss cc nsubj amod advmod punct case 
+"Not my favorite. `` RB PRP$ NN . punct neg nmod:poss punct 
+By the time they neared the end of the line, Lightsong was getting tired of looking at art, though his body-fueled by the child's Breath-continued to feel strong and exhilarated. IN DT NN PRP VBD DT NN IN DT NN , NNP VBD VBG JJ IN VBG IN NN , IN PRP$ JJ IN DT NN POS JJ TO VB JJ CC JJ . aux nmod nmod:poss parataxis det case advcl mark conj mark cc punct det nmod nmod:poss xcomp nmod punct xcomp case dep det nsubj acl dobj nmod case case nsubj det advmod punct case 
+Lightsong turned. NNP VBD . nsubj punct 
+Cursing himself quietly, he knelt down on one knee, taking the girl's face in his oversized hands. VBG PRP RB , PRP VBD RP IN CD NN , VBG DT NN POS NN IN PRP$ JJ NNS . compound:prt advcl dobj nmod:poss nummod case det amod case punct nsubj nmod:poss advcl dobj advmod punct nmod nmod punct case 
+I'm imagining things, he told himself. PRP VBP VBG NNS , PRP VBD PRP . punct ccomp nsubj punct aux nsubj dobj dobj 
+Lightsong was a terrible god. NNP VBD DT JJ NN . det punct cop nsubj amod 
+"You know I cannot speak of your life before your Return, Lightsong. `` PRP VBP PRP MD RB VB IN PRP$ NN IN PRP$ NN , NNP . nmod appos nsubj nsubj nmod:poss nmod:poss root ccomp aux punct punct nmod neg case case 
+He was also broad of shoulders, with a muscular physique that he didn't really deserve, considering the amount of time he spent idle. PRP VBD RB JJ IN NNS , IN DT JJ NN IN PRP VBD RB RB VB , VBG DT NN IN NN PRP VBD JJ . case aux nmod punct det cop punct amod acl:relcl advmod punct xcomp nsubj nsubj nmod nmod xcomp case dobj neg acl:relcl nsubj det advmod dobj case 
+It is nothing to her, Lightsong told himself again. PRP VBZ NN TO PRP , NNP VBD PRP RB . nsubj nmod nsubj dobj advmod punct case cop punct acl:relcl 
+Lightsong sighed, looking up at the ceiling. NNP VBD , VBG RP IN DT NN . nmod compound:prt det nsubj punct case punct xcomp 
+At the center of the palace was a small, square room that deviated from the standard reds and golds of Lightsong's motif. IN DT NN IN DT NN VBD DT JJ , JJ NN WDT VBD IN DT JJ NNS CC NNS IN NNP POS NN . det amod nmod:poss nmod punct nmod cc conj case nmod punct nmod nsubj case amod case det acl:relcl det nsubj amod det case case 
+As Lightsong stepped into the room, the colors blazed to life. IN NNP VBD IN DT NN , DT NNS VBD TO NN . case case nsubj nmod det nmod mark nsubj punct det advcl punct 
+He gave this last painting the time it deserved. PRP VBD DT JJ NN DT NN PRP VBD . nsubj iobj dobj det det nsubj acl:relcl amod punct 
+Lightsong waited, still thinking about Susebron and the impending wedding. NNP VBD , RB VBG IN NNP CC DT JJ NN . case conj nmod cc advmod det punct amod nsubj punct xcomp 
+It puts me at peace, yet has a tension to it as well. PRP VBZ PRP IN NN , RB VBZ DT NN TO PRP RB RB . nmod case punct case dobj mwe det advcl punct dobj advmod nmod nsubj advmod 
+Lightsong didn't know what it was like to live without the ability to instantly recognize exact shades of color and sound. NNP VBD RB VB WP PRP VBD IN TO VB IN DT NN TO RB VB JJ NNS IN NN CC NN . mark cc nmod punct dobj neg xcomp case conj nsubj nmod acl advmod nsubj case mark aux dobj ccomp amod det cop 
+The girl looked back toward Lightsong, obviously nervous. DT NN VBD RB IN NNP , RB JJ . punct punct nsubj case advmod det advmod nmod xcomp 
+"Oh, you know," Lightsong flopped back onto one of his couches, lounging and relaxing. `` UH , PRP VBP , '' NNP VBD RB IN CD IN PRP$ NNS , VBG CC VBG . nsubj punct nmod:poss case punct punct case nsubj punct nmod conj punct ccomp punct cc advmod discourse nmod dep 
+Was there a feast or celebration he hadn't heard about? VBD EX DT NN CC NN PRP VBD RB VBN IN . punct dep cc det nmod advmod conj acl:relcl neg nsubj aux 
+The servants stayed outside; only Mike joined Lightsong as he stepped up to the first painting. DT NNS VBD IN : RB NNP VBD NNP IN PRP VBD RB TO DT JJ NN . advcl mark parataxis det amod nsubj punct case det nsubj nsubj punct nmod advmod advmod dobj advmod 
+His aura didn't grow stronger from Breath upon which he fed; that was another difference between a Returned and an Awakener. PRP$ NN VBD RB VB JJR IN NNP IN WDT PRP VBD : DT VBD DT NN IN DT VBN CC DT NNP . nsubj parataxis nsubj case cc aux case case nmod:poss det nmod nsubj det neg dep nmod punct xcomp nmod punct cop conj det 
+"Please try to remember the dreams, your grace," Mike said in his polite, yet disapproving, way. `` VB VB TO VB DT NNS , PRP$ NN , '' NNP VBD IN PRP$ JJ , RB VBG , NN . dep punct dobj punct punct nmod:poss dep mark nsubj dobj punct nmod aux dobj advmod punct nmod:poss det punct xcomp punct case 
+I wish I could visit." PRP VBP PRP MD VB . '' punct nsubj ccomp nsubj punct aux 
+He didn't prompt for more information, he simply took down Lightsong's words as they came. PRP VBD RB VB IN JJR NN , PRP RB VBD RP NNP POS NNS IN PRP VBD . ccomp advmod nsubj advcl dobj amod nsubj nsubj neg punct aux punct case compound:prt nmod:poss mark nmod case 
+His hands were nearly hidden by the deep sleeves of his gold and red robe, and he carried a thick tome. PRP$ NNS VBD RB VBN IN DT JJ NNS IN PRP$ NN CC JJ NN , CC PRP VBD DT JJ NN . amod nsubjpass det conj advmod conj case punct cc amod nsubj cc punct nmod:poss case det auxpass nmod nmod:poss nmod dobj amod 
+"If we must," Lightsong said. `` IN PRP MD , '' NNP VBD . punct punct mark advcl nsubj punct nsubj punct 
+Lightsong stopped before the final painting. NNP VBD IN DT JJ NN . case amod nsubj punct nmod det 
+Lightsong sighed, then rose, feeling exhausted. NNP VBD , RB VBD , VBG VBN . punct dep punct xcomp advmod nsubj xcomp punct 
+"I am honored, your grace," Mike said, seating himself on a chair. `` PRP VBP VBN , PRP$ NN , '' NNP VBD , VBG PRP IN DT NN . auxpass punct punct det xcomp case dep nmod:poss punct nsubjpass nmod nsubj punct punct dep punct dobj 
+Lightsong raised an eyebrow. NNP VBD DT NN . punct det dobj nsubj 
+Lightsong didn't remember dying. NNP VBD RB VB VBG . nsubj xcomp neg aux punct 
+Lightsong had always found the distinction odd. NNP VBD RB VBN DT NN JJ . det nsubj advmod punct xcomp aux nsubj 
+Lightsong frowned. NNP VBD . nsubj punct 
+His priests, however, assured him that his death had been extremely brave. PRP$ NNS , RB , VBD PRP IN PRP$ NN VBD VBN RB VBP . nsubj aux advmod punct advmod punct dobj cop nmod:poss mark nmod:poss ccomp nsubj punct 
+He rolled over, feeling weak as he sat up in his majestic bed. PRP VBD RP , VBG JJ IN PRP VBD RP IN PRP$ JJ NN . xcomp punct case compound:prt xcomp nsubj compound:prt mark advcl punct amod nsubj nmod nmod:poss 
+If he looked at it right, it looked like a sea. IN PRP VBD IN PRP RB , PRP VBD IN DT NN . nsubj punct det nsubj nmod case nmod case advcl punct mark advmod 
+That would, however, kill him. DT MD , RB , VB PRP . punct punct advmod nsubj dobj aux punct 
+Lightsong often though that the convoluted system of Commands used to control the Lifeless was needlessly complex. NNP RB IN IN DT JJ NN IN NNS VBN TO VB DT JJ VBD RB JJ . mark cop dobj advmod case xcomp advmod acl punct nsubj det det mark mark nmod advcl amod 
+Mike pursed his lips in displeasure. NNP VBD PRP$ NNS IN NN . case nsubj dobj nmod:poss punct nmod 
+Mike regarded him with a flat stare. NNP VBD PRP IN DT JJ VBP . punct case amod nsubj det dobj nmod 
+Lightsong turned to Mike, feeling guilty at his sudden energy. NNP VBD TO NNP , VBG JJ IN PRP$ JJ NN . amod advcl punct punct nsubj case nmod nmod nmod:poss xcomp case 
+It's nothing, he thought. PRP VBZ NN , PRP VBD . nsubj punct nsubj punct cop ccomp 
+Mike raised an eyebrow. NNP VBD DT NN . dobj det punct nsubj 
+I think it might have been her." PRP VBP PRP MD VB VBN PRP . '' punct cop aux aux nsubj ccomp nsubj punct 
+He walked away, leaving Mike. PRP VBD RB , VBG NNP . punct advmod dobj punct nsubj xcomp 
+Mike opened his tome. NNP VBD PRP$ NN . nmod:poss punct nsubj dobj 
+Mike raised an eyebrow over his bespectacled eyes. NNP VBD DT NN IN PRP$ JJ NNS . nmod case nsubj det punct dobj nmod:poss amod 
+The lesser priest scribbled down what Lightsong had said about the painting. DT JJR NN VBD RP WP NNP VBD VBN IN DT NN . nsubj dobj punct det nmod nsubj case amod compound:prt aux ccomp det 
+Even if he found divination foolish, he had no right to complain. RB IN PRP VBD NN JJ , PRP VBD DT NN TO VB . nsubj advcl xcomp nsubj punct dobj punct neg mark nmod:npmod acl mark advmod 
+Makes me think of the outside. VBZ PRP VB IN DT NN . det ccomp punct nmod case nsubj 
+If a new queen was going to arrive today, he wanted to get a good look at her. IN DT JJ NN VBD VBG TO VB NN , PRP VBD TO VB DT JJ NN IN PRP . det dobj case punct nsubj nmod det xcomp mark mark amod advcl aux nmod:tmod punct mark amod nsubj xcomp 
+Lightsong moved away from the painting. NNP VBD RB IN DT NN . case det nmod punct advmod nsubj 
+Mike scribbled furiously-he always got excited when Lightsong remembered colors. NNP VBD JJ RB VBD VBN WRB NNP VBD NNS . nsubjpass punct dobj advmod ccomp advmod auxpass advcl nsubj nsubj 
+He was one of the younger, for he'd Returned only five years before. PRP VBD CD IN DT JJR , IN PRP MD VBN RB CD NNS RB . mark aux nummod advcl punct cop nsubj nmod nsubj advmod det advmod nmod:npmod case punct 
+Mike and the servants waited. NNP CC DT NNS VBD . conj cc punct nsubj det 
+It traveled along Lightsong's arm-the touch was necessary-and he drew it in. PRP VBD IN NNP POS JJ NN VBD JJ PRP VBD PRP IN . nmod:poss nsubj cop amod advmod ccomp case nsubj case csubj punct dobj nmod 
+Mike gave him a flat look. NNP VBD PRP DT JJ NN . nsubj dobj punct amod iobj det 
+That was an effect of Lightsong's innate BioChroma: he had enough Breath to fill thousands of people. DT VBD DT NN IN NNP POS JJ NNP : PRP VBD JJ NNP TO VB NNS IN NNS . nmod:poss mark parataxis punct dobj cop case amod nmod nmod nsubj dobj punct det case nsubj case acl amod 
+Lightsong stepped forward, and the little girl glanced to the side, where a couple of priests stood in red and gold robes. NNP VBD RB , CC DT JJ NN VBD TO DT NN , WRB DT NN IN NNS VBD IN JJ CC JJ NNS . advmod det nmod cc acl:relcl nsubj conj nmod nsubj amod conj amod punct case punct punct nsubj nmod det case det case cc advmod 
+Lightsong had died in a way that displayed extreme bravery. NNP VBD VBN IN DT NN IN VBD JJ NN . det aux acl:relcl dobj nsubj amod case nsubj nmod punct 
+Somewhere, there was a city patron who sought a blessing from Lightsong. RB , EX VBD DT NN NN WP VBD DT NN IN NNP . punct advmod det case nsubj punct nsubj expl det compound nmod dobj acl:relcl 
+remember a face, sometimes," he said softly. VB DT NN , RB , '' PRP VBD RB . punct punct ccomp punct nsubj det ccomp advmod advmod punct 
+There were some two dozen deities in the Court of Gods, and many were far more important-and far more politically savvy-than Lightsong. EX VBD DT CD NN NNS IN DT NNP IN NNS , CC JJ VBD RB RBR JJ RB RBR RB JJ NNP . nummod advmod punct nmod advmod advmod nsubj compound conj case advmod advmod det case advmod cc nsubj amod expl nmod cop dep punct 
+"You aren't hearing Petitions today, your grace. `` PRP VBP RB VBG NNS NN , PRP$ NN . nmod:tmod dobj punct nsubj aux punct punct ccomp nmod:poss neg 
+was walking by a beach," he said. VBD VBG IN DT NN , '' PRP VBD . punct case punct punct nsubj aux nmod det ccomp 
+There were some of these plants in the courtyards around the Court of Gods, which was why Lightsong recognized them. EX VBD DT IN DT NNS IN DT NNS IN DT NNP IN NNS , WDT VBD WRB NNP VBD PRP . nmod nmod nmod punct case case dobj det advcl nmod expl nsubj nsubj advmod punct det case acl:relcl det case nsubj 
+Without a new Breath each week, Lightsong would die. IN DT JJ NNP DT NN , NNP MD VB . case nmod nsubj amod punct nmod:tmod det punct aux det 
+"Here now," Lightsong said, trying to sound encouraging. `` RB RB , '' NNP VBD , VBG TO VB JJ . advmod punct parataxis punct punct advmod nsubj mark xcomp xcomp punct punct 
+"Kneeling reverently in the courtyard, your grace. `` VBG RB IN DT NN , PRP$ NN . advmod det dep punct nmod:poss nmod case punct punct 
+Or, at least, that was what his priests told him. CC , IN JJS , DT VBD WP PRP$ NNS VBD PRP . nmod:poss punct punct punct cc dobj mwe nsubj dobj nsubj advmod ccomp 
+Of all the people in the world, he had the least right to be difficult. IN PDT DT NNS IN DT NN , PRP VBD DT JJS NN TO VB JJ . det acl cop det det mark nsubj dobj punct nmod nmod case case punct det:predet amod 
+Mike didn't lead the way toward the petition hall, however. NNP VBD RB VB DT NN IN DT NN NN , RB . case compound dobj nsubj neg det det aux punct punct nmod advmod 
+The dots of color brightened as Lightsong approached. DT NNS IN NN VBN IN NNP VBD . det acl case nsubj advcl nmod punct mark 
+"Inviting brown hair," Lightsong said. `` VBG JJ NN , '' NNP VBD . punct punct dobj amod punct ccomp nsubj punct 
+However, being one of the four Gods to hold Lifeless commands did make him rather important at times. RB , VBG CD IN DT CD NNS TO VB JJ NNS VBD VB PRP RB JJ IN NNS . punct det advmod case aux nummod nmod nmod mark advmod cop acl case dobj nsubj nsubj amod xcomp punct 
+It had always seemed convenient to Lightsong that he couldn't remember how he had died, just like he couldn't remember anything of his life before he had become a god. PRP VBD RB VBN JJ TO NNP IN PRP MD RB VB WRB PRP VBD VBN , RB IN PRP MD RB VB NN IN PRP$ NN IN PRP VBD VBN DT NN . aux mark xcomp punct nsubj advmod nsubj aux punct neg case nmod aux nmod det ccomp neg ccomp advmod aux dobj aux mark advcl case xcomp nsubj nmod:poss mark nsubj advmod advcl nsubj 
+Lecture after lecture-delivered by Mike, who had claimed that they were not lectures, for one did not lecture gods-drifted through Lightsong's head. NN IN JJ IN NNP , WP VBD VBN IN PRP VBD RB VBZ , IN CD VBD RB VB VBN IN NNP POS NN . auxpass punct nsubj punct nmod parataxis neg case nmod neg ccomp case aux case nmod:poss nmod aux acl:relcl mark nsubjpass punct dep case case nmod 
+Visions and memories pestered his mind, and he shook his head, trying to clear away the fog of sleep. NNS CC NNS VBD PRP$ NN , CC PRP VBD PRP$ NN , VBG TO VB RP DT NN IN NN . nmod:poss punct punct nmod:poss nsubj punct nmod compound:prt dobj dobj mark case cc cc conj nsubj det xcomp advcl dobj conj 
+He didn't return to his main chambers. PRP VBD RB VB TO PRP$ JJ NNS . punct amod neg nmod:poss nsubj case nmod aux 
+He could tell an ideal red from one that had been mixed with even one extra drop of white paint. PRP MD VB DT JJ NN IN CD WDT VBD VBN VBN IN RB CD JJ NN IN JJ NN . punct amod nsubjpass nummod nsubj case nmod aux acl:relcl nmod amod nmod dobj det amod case case advmod auxpass aux 
+Mike asked, looking up from his book. NNP VBD , VBG RP IN PRP$ NN . punct nmod nmod:poss nsubj case xcomp compound:prt punct 
+He couldn't give-or even loan-his deific Breath away. PRP MD RB VB RB JJ JJ NN RB . neg advmod advmod aux nsubj punct dobj amod amod 
+Mike picked up his quill. NNP VBD RP PRP$ NN . compound:prt dobj punct nmod:poss nsubj 
+The phrase he'd given to Mike would only allow a person to control the Lifeless in non-combat situations, and it would expire one day after its first use. DT NN PRP VBD VBN TO NNP MD RB VB DT NN TO VB DT JJ IN JJ NNS , CC PRP MD VB CD NN IN PRP$ JJ NN . punct aux amod aux nmod:tmod nmod:poss conj nsubj mark nsubj nsubj nmod aux advmod xcomp acl:relcl det amod cc dobj case nummod case nmod punct case det dobj nmod det 
+"The ship had a red sail," Lightsong said. `` DT NN VBD DT JJ NN , '' NNP VBD . det punct nsubj dobj amod punct punct ccomp det punct nsubj 
+Mike, his high priest, was a tall, portly man with spectacles and a calm demeanor. NNP , PRP$ JJ NN , VBD DT JJ , JJ NN IN NNS CC DT JJ NN . appos amod cc amod punct nsubj amod nmod:poss punct case det amod cop punct nmod punct det conj 
+Mike asked. NNP VBD . nsubj punct 
+In a short time, he would dine on something far more... divine. IN DT JJ NN , PRP MD VB IN NN RB RBR : NN . dobj amod amod punct nsubj case nmod punct advmod punct nmod det aux case 
+He had a deific BioChromatic aura, a physique that any man would envy, and enough luxury for ten kings. PRP VBD DT JJ NNP NN , DT NN IN DT NN MD VB , CC RB NN IN CD NNS . det det cc punct ccomp compound amod dobj nsubj aux nsubj punct nummod appos case amod det mark punct conj nmod 
+I have you to remember things like that for me." PRP VBP PRP TO VB NNS IN DT IN PRP . '' dobj nsubj case dobj punct mark punct nmod xcomp nmod case 
+One duty left, he thought. CD NN VBD , PRP VBD . ccomp nsubj punct nsubj punct nummod 
+Yet, he was trailed by a fleet of servants and lesser priests who would see to his needs. RB , PRP VBD VBN IN DT NN IN NNS CC JJR NNS WP MD VB TO PRP$ NNS . nsubj punct case auxpass nmod case aux det punct conj advmod case cc nsubjpass amod nmod:poss nmod acl:relcl nmod 
+Lightsong thought. NNP VBD . nsubj punct 
+He was remarkably fortunate. PRP VBD RB JJ . nsubj punct cop advmod 
+The priests would interpret Lightsong's opinion of the painting, then give the person an augury-either for good or for ill-along with the exact words Lightsong had said. DT NNS MD VB NNP POS NN IN DT NN , RB VB DT NN DT NN IN JJ CC IN JJ IN DT JJ NNS NNP VBD VBN . punct advmod aux dep case dobj det nmod iobj case dobj nsubj nmod det det amod det aux nmod case acl:relcl conj case nsubj det case nmod:poss punct cc 
+I approve." PRP VBP . '' punct punct nsubj 
+He knew it. PRP VBD PRP . nsubj dobj punct 
+Nobody told him so, but he was wise enough to see the truth. NN VBD PRP RB , CC PRP VBD JJ JJ TO VB DT NN . punct nsubj xcomp advmod xcomp mark dobj dobj punct cc cop det conj nsubj 
+###breath-continued
+By the time they neared the end of the line, Lightsong was getting tired of looking at art, though his body-fueled by the child's Breath-continued to feel strong and exhilarated. IN DT NN PRP VBD DT NN IN DT NN , NNP VBD VBG JJ IN VBG IN NN , IN PRP$ JJ IN DT NN POS JJ TO VB JJ CC JJ . aux nmod nmod:poss parataxis det case advcl mark conj mark cc punct det nmod nmod:poss xcomp nmod punct xcomp case dep det nsubj acl dobj nmod case case nsubj det advmod punct case 
+###susebron
+Lightsong waited, still thinking about Susebron and the impending wedding. NNP VBD , RB VBG IN NNP CC DT JJ NN . case conj nmod cc advmod det punct amod nsubj punct xcomp 
+And above them all reigned Susebron, the God King of Hallandren. CC IN PRP DT VBD NNP , DT NNP NNP IN NNP . case case nmod dobj appos punct nmod det punct det cc compound 
+###lifeless
+"We will need a Lifeless Command in order to arrange our troops on the field outside the city to welcome the queen." `` PRP MD VB DT JJ NN IN NN TO VB PRP$ NNS IN DT NN IN DT NN TO VB DT NN . '' punct mwe punct nmod dobj mark nmod:poss mark advcl nmod case advcl mark dobj det aux det dobj det amod case det root nsubj 
+###hallandren
+Few people in Hallandren would admit to having that particular disease. JJ NNS IN NNP MD VB TO VBG IN JJ NN . det advcl punct amod dobj aux nmod case mark amod nsubj 
+Many Returned outside of Hallandren lived only eight days. JJ VBN IN IN NNP VBD RB CD NNS . advmod advmod punct case nmod:tmod nsubj nmod nummod dep 
+It was completely white-something very unusual in Hallandren. PRP VBD RB JJ RB JJ IN NNP . nsubj advmod case nmod cop advmod punct advmod 
+Each room was hung with paintings and brightly written poems, created by Hallandren's finest artists. DT NN VBD VBN IN NNS CC RB VBN NNS , VBN IN NNP POS JJS NNS . cc case conj amod punct nmod:poss nmod advmod amod auxpass nmod det nsubjpass punct acl case case 
+There was nothing to fear from the Returned Gods of the Hallandren. EX VBD NN TO VB IN DT NNP NNS IN DT NNP . punct case nsubj mark case det acl nmod nmod expl det compound 
+And above them all reigned Susebron, the God King of Hallandren. CC IN PRP DT VBD NNP , DT NNP NNP IN NNP . case case nmod dobj appos punct nmod det punct det cc compound 
+###command
+"Fledgling fruit," he said, giving up one of the Command phrases that would let others control the city's Lifeless. `` NN NN , '' PRP VBD , VBG RP CD IN DT NN NNS WDT MD VB NNS VBP DT NN POS JJ . punct parataxis nsubj compound:prt case acl:relcl punct nsubj det nsubj nsubj dobj punct ccomp compound nmod compound case aux punct dobj det punct nmod:poss 
+"We will need a Lifeless Command in order to arrange our troops on the field outside the city to welcome the queen." `` PRP MD VB DT JJ NN IN NN TO VB PRP$ NNS IN DT NN IN DT NN TO VB DT NN . '' punct mwe punct nmod dobj mark nmod:poss mark advcl nmod case advcl mark dobj det aux det dobj det amod case det root nsubj 
+###unknown
+"What, then, do you remember of your dreams last night?" `` WP , RB , VBP PRP VB IN PRP$ NNS JJ NN . '' dobj punct nmod:tmod case nsubj root punct amod nmod:poss advmod nmod punct aux punct 
+Mike nodded, rising and shooing back the servants-though, of course, they remained in the room, hovering with their plates of food, wine, and fruit, should any of it be wanted. NNP VBD , VBG CC VBG RP DT NN , IN NN , PRP VBD IN DT NN , VBG IN PRP$ NNS IN NN , NN , CC NN , MD DT IN PRP VB VBN . nmod case conj punct conj conj punct case nmod nmod:poss nmod case punct punct parataxis aux cc dep case nsubj punct xcomp nmod nmod dobj det det auxpass xcomp punct compound:prt punct nsubjpass nsubj punct case cc 
+"Well, then," Mike said, flipping a page over, "consider it officially remembered that you have no Petitions today. `` UH , RB , '' NNP VBD , VBG DT NN IN , `` VB PRP RB VBD IN PRP VBP DT NNS NN . punct ccomp nmod:tmod ccomp punct punct advmod det punct dobj dobj nsubj xcomp punct neg discourse mark punct nsubj nsubj punct advmod punct ccomp advmod 
+In the center of the room was a child. IN DT NN IN DT NN VBD DT NN . punct case det nsubj det det nmod nmod case 
+"Shall we begin?" `` FW PRP VB . '' advmod nsubj punct punct punct 
+It was just that... well, he was probably the world's only god who didn't believe in his own religion. PRP VBD RB DT : RB , PRP VBD RB DT NN POS JJ NN WP VBD RB VB IN PRP$ JJ NN . advmod advmod acl:relcl punct punct dep nsubj amod nmod det cop punct aux amod cop nsubj neg case nmod:poss case advmod nsubj nmod:poss 
+The poem wasn't a very good one, obviously composed by a peasant, who had then paid someone else to translate it to the artisan's script. DT NN VBD RB DT RB JJ CD , RB VBN IN DT NN , WP VBD RB VBN NN RB TO VB PRP TO DT NN POS NN . nmod nsubj nsubj punct punct neg dobj det dobj advmod amod case aux mark amod nmod det case det det advcl advmod acl:relcl advcl punct cop advmod nmod:poss case 
+She began to cry, but she said the words, clear and distinct as she had been taught. PRP VBD TO VB , CC PRP VBD DT NNS , JJ CC JJ IN PRP VBD VBN VBN . punct xcomp conj auxpass dep dobj amod conj nsubj cc aux punct cc mark det punct nsubj nsubjpass mark 
+Susebron getting a wife. NNP VBG DT NN . det punct dobj nsubj 
+The wall was remarkably full this day. DT NN VBD RB JJ DT NN . advmod det det nmod:tmod nsubj cop punct 
+His palace held dozens of different chambers, decorated and furnished according to his whims. PRP$ NN VBD NNS IN JJ NNS , VBN CC VBN VBG TO PRP$ NNS . cc case nmod nmod:poss acl punct case nmod nsubj mwe amod dobj nmod:poss punct conj 
+"My life to yours. `` PRP$ NN TO PRP$ . nmod nmod:poss case root punct 
+Then, you brought me a big bottle of wine and did a dance. RB , PRP VBD PRP DT JJ NN IN NN CC VBD DT NN . cc amod det nmod case advmod punct conj dobj iobj det nsubj punct dobj 
+It was really quite remarkable." PRP VBD RB RB JJ . '' cop advmod nsubj advmod punct punct 
+She'll live a full life. PRP MD VB DT JJ NN . punct dobj amod nsubj aux det 
+"That's it, I assume?" `` DT VBZ PRP , PRP VB . '' ccomp punct punct nsubj root nsubj punct nsubj 
+Lightsong fell into step beside Mike, towering a good foot over the priest. NNP VBD IN NN IN NNP , VBG DT JJ NN IN DT NN . det amod punct nmod nmod dobj case case case nsubj nmod punct advcl det 
+I don't know where it was going." PRP VBP RB VB WRB PRP VBD VBG . '' ccomp aux punct nsubj nsubj punct advmod neg aux 
+"You're accommodating all of a sudden." `` PRP VBP VBG DT IN DT JJ . '' nmod root dobj nsubj punct case det aux punct 
+It was good to keep the priests guessing at what would please him, or so some of the gods said. PRP VBD JJ TO VB DT NNS VBG IN WP MD VB PRP , CC RB DT IN DT NNS VBD . xcomp mark det nsubj dobj det cop xcomp aux advcl nsubj nsubj conj punct case cc nsubj advmod punct nmod mark 
+They became brighter, yet somehow remained dark. PRP VBD RBR , RB RB VBD JJ . nsubj punct ccomp advmod advmod advmod punct xcomp 
+Mike shook his head. NNP VBD PRP$ NN . nmod:poss dobj punct nsubj 
+"The sand was brown, of course, and the trees green. `` DT NN VBD JJ , IN NN , CC DT NNS JJ . det cc root nsubj punct cop punct det case conj punct nsubj nmod 
+"Was there anything else to the dream, your grace?" `` VBD EX NN RB TO DT NN , PRP$ NN . '' case nmod:poss punct root punct punct nmod expl dep appos det amod 
+Now that Offerings were done, it would be time to move on to the final-and least appealing-of his daily tasks. RB IN NNS VBD VBN , PRP MD VB NN TO VB IN TO DT JJ JJS JJ PRP$ JJ NNS . advmod aux acl cop advcl dep case nmod det advmod mark punct amod nsubjpass advmod punct amod nmod:poss auxpass nsubj mark 
+Lightsong lounged back again, opening his eyes and looking up at the ceiling and its brightly colored fields. NNP VBD RB RB , VBG PRP$ NNS CC VBG RP IN DT NN CC PRP$ RB VBN NNS . amod det cc advmod punct nmod:poss nmod nmod:poss punct conj nsubj advmod conj cc case advmod ccomp compound:prt dobj 
+His weakness vanished, the dizziness evaporated. PRP$ NN VBD , DT NN VBN . nmod:poss ccomp nsubj punct det nsubj punct 
+The better a painting was, the better a reaction it tended to get from the from the gods. DT JJR DT NN VBD , DT JJR DT NN PRP VBD TO VB IN DT IN DT NNS . acl:relcl dep punct det xcomp nsubj nsubj det nmod mark punct case cop case det nmod dep det det 
+It seemed his duty, and for some reason it was one of the few things he took seriously. PRP VBD PRP$ NN , CC IN DT NN PRP VBD CD IN DT JJ NNS PRP VBD RB . det nsubj det nmod acl:relcl nsubj acl:relcl dobj conj punct punct nsubj amod case cop nmod:poss case cc advmod 
+"Your grace," Mike said. `` PRP$ NN , '' NNP VBD . nmod:poss punct punct nsubj nsubj punct punct 
+Knowledge of your past won't do anyone any good." NN IN PRP$ NN MD RB VB NN DT JJ . '' nsubj neg nmod:poss dobj advmod det punct nmod case punct aux 
+Even a lesser deity such as Lightsong merited an enormous palace. RB DT JJR NN JJ IN NNP VBD DT JJ NN . nmod case punct advmod amod amod nsubj det mwe det dobj 
+Servants approached carrying brilliant red and gold robes. NNS VBD VBG JJ JJ CC JJ NNS . punct dobj amod nsubj xcomp amod cc conj 
+"I've decided to give you a new nickname. `` PRP VBP VBN TO VB PRP DT JJ NN . nsubj iobj root dobj xcomp det aux amod punct mark 
+Lightsong hesitated, but his weakness was coming to a head. NNP VBD , CC PRP$ NN VBD VBG TO DT NN . nsubj nmod cc nsubj aux det nmod:poss conj punct case punct 
+Either way, the act of sending a painting to please the god would gain the patron some measure of good fortune. DT NN , DT NN IN VBG DT NN TO VB DT NN MD VB DT NN DT NN IN JJ NN . punct mark acl iobj det det det amod nmod:tmod det dobj nsubj punct dobj det case det nmod advcl aux mark dobj 
+"And a ship was leaving without me. `` CC DT NN VBD VBG IN PRP . aux det nmod cc nsubj punct case punct 
+It wasn't the core Command, of course. PRP VBD RB DT NN NN , IN NN . compound punct case cop neg punct nmod nsubj det 
+All they needed to subsist was one thing. DT PRP VBD TO VB VBD CD NN . nummod nsubj cop punct nsubj acl:relcl xcomp mark 
+Hence the Court of the Gods, filled with its palaces, where gods could be nurtured, protected, and-most importantly-fed. RB DT NN IN DT NNS , VBN IN PRP$ NNS , WRB NNS MD VB VBN , VBN , JJ JJ . punct amod advmod acl:relcl nmod acl dep det punct punct det nmod:poss aux punct case auxpass conj case nmod nsubjpass punct conj 
+The servants continued their ministrations, draping him with cloth. DT NNS VBD PRP$ NNS , VBG PRP IN NN . nmod:poss case dobj nmod advcl det punct dobj nsubj punct 
+"Yes, your grace?" `` UH , PRP$ NN . '' punct discourse punct punct punct nmod:poss 
+Most likely, the patron hadn't painted it himself, but had instead commissioned it. RBS JJ , DT NN VBD RB VBN PRP PRP , CC VBD RB VBN PRP . nmod:npmod nsubj aux aux advmod advmod punct punct advmod dobj punct dobj cc neg conj det 
+Nothing at all...   And still, as she met his eyes as she left, and he could see that the twinkle was gone from them. NN IN DT : CC RB , IN PRP VBD PRP$ NNS IN PRP VBD , CC PRP MD VB IN DT NN VBD VBN IN PRP . case nsubjpass conj punct aux punct det punct nmod:poss dobj mark auxpass mark nsubj nsubj cc cc case nsubj nmod punct root ccomp conj nmod advcl mark 
+Both robes and tome burst with color as they entered Lightsong's aura. DT NNS CC NN NN IN NN IN PRP VBD NNP POS NN . punct advcl dobj nsubj nmod conj nmod:poss cc:preconj mark compound case case cc 
+A servant scuttled forward to redo one of the clasps on his robe, which had come undone as he sat. DT NN VBD RB TO VB CD IN DT NNS IN PRP$ NN , WDT VBD VBN VBN IN PRP VBD . case nsubj advmod punct nsubj nmod det punct mark nmod:poss aux det advcl nmod case mark nsubj xcomp dobj acl:relcl xcomp 
+Without this system, I'd have died five years ago. IN DT NN , PRP MD VB VBD CD NNS RB . nmod aux case det punct aux advmod nsubj nmod:npmod nummod punct 
+"They will?" `` PRP MD . '' punct punct nsubj punct 
+The God King would be the only of the Returned who could marry. DT NNP NNP MD VB DT RB IN DT VBN WP MD VB . compound det cop aux aux nsubj nmod det acl:relcl nsubj punct case det 
+They continued down the line, Lightsong giving reviews of the various paintings and poems. PRP VBD RP DT NN , NNP VBG NNS IN DT JJ NNS CC NNS . acl conj case amod case punct det nmod punct dobj nsubj det cc dobj nmod 
+A person without Breath. DT NN IN NNP . case punct nmod det 
+It was a vision one of his predecessors had seen, or so he was told. PRP VBD DT NN CD IN PRP$ NNS VBD VBN , CC RB PRP VBD VBN . nsubj aux nmod case nsubj advmod punct auxpass nsubjpass acl:relcl cop cc punct det nmod:poss conj 
+He wondered if the priests knew just how much their Gods gossiped about the outside world. PRP VBD IN DT NNS VBD RB WRB JJ PRP$ NNS VBN IN DT JJ NN . advcl advmod case amod nsubj nsubj det ccomp nmod:poss det nsubj nmod mark punct advmod advmod 
+Lightsong was a good head and a half taller than anyone else in the room. NNP VBD DT JJ NN CC DT NN JJR IN NN RB IN DT NN . det dep det cop conj case punct nmod det advmod nmod case nsubj amod cc 
+"I'm sure," Mike said, nodding to one of his aids outside the room. `` PRP VBP JJ , '' NNP VBD , VBG TO CD IN PRP$ NNS IN DT NN . nmod cop nmod punct punct punct nmod xcomp case punct ccomp punct nsubj nsubj nmod:poss case case det 
+Or, was it all rhetoric? CC , VBD PRP DT NN . punct nsubj cop cc det punct 
+I need to give something back, Lightsong thought. PRP VBP TO VB NN RB , NNP VBD . ccomp xcomp dobj compound:prt nsubj punct nsubj mark punct 
+It was actually a poem, written in the artisan's script. PRP VBD RB DT NN , VBN IN DT NN POS NN . det advmod acl nsubj punct nmod:poss nmod case det punct case cop 
+They nodded encouragingly. PRP VBD RB . punct advmod nsubj 
+The furniture and doorways, however, were built to fit Lightsong's increased size, so it was the servants and priests who seemed out of place in the palace. DT NN CC NNS , RB , VBD VBN TO VB NNP POS VBN NN , IN PRP VBD DT NNS CC NNS WP VBD IN IN NN IN DT NN . punct det case nmod punct nmod:poss mark cop advcl advmod case case conj det cc mark nsubjpass dobj auxpass nmod xcomp case punct det cc amod nsubj punct acl:relcl nsubj conj 
+It was completely white-something very unusual in Hallandren. PRP VBD RB JJ RB JJ IN NNP . nsubj advmod case nmod cop advmod punct advmod 
+"We will need a Lifeless Command in order to arrange our troops on the field outside the city to welcome the queen." `` PRP MD VB DT JJ NN IN NN TO VB PRP$ NNS IN DT NN IN DT NN TO VB DT NN . '' punct mwe punct nmod dobj mark nmod:poss mark advcl nmod case advcl mark dobj det aux det dobj det amod case det root nsubj 
+Standing made him just a bit dizzy. VBG VBD PRP RB DT NN JJ . nsubj advmod dobj advmod det punct nmod:npmod 
+Such offerings were made specifically for the intended God, and only he-besides a few of his priests-was allowed to see them. JJ NNS VBD VBN RB IN DT JJ NNP , CC RB VBZ DT JJ IN PRP$ NN VBD TO VB PRP . nmod advmod det amod punct nmod case nsubjpass cc conj auxpass punct amod xcomp advmod det nmod:poss nsubj case mark dobj ccomp 
+Lightsong sensed that many of them were far more calculating in the way that they gave their reviews, intentionally adding cryptic meanings. NNP VBD IN JJ IN PRP VBD RB RBR VBG IN DT NN IN PRP VBD PRP$ NNS , RB VBG JJ NNS . case nsubj ccomp aux det nmod:poss nmod advmod dobj advmod dobj nmod mark mark ccomp advcl nsubj punct punct nsubj amod advmod case 
+He couldn't use it animate objects or corpses; he was a god, not an Awakener. PRP MD RB VB PRP VB NNS CC NNS : PRP VBD DT NN , RB DT NNP . parataxis aux dobj punct nsubj det cop nsubj neg ccomp conj punct punct det cc appos neg nsubj 
+For some reason, I think the ocean water was red, like the ship." IN DT NN , PRP VBP DT NN NN VBD JJ , IN DT NN . '' case punct punct nmod det punct nsubj case det punct compound nsubj cop det ccomp nmod 
+He saw little use to it. PRP VBD JJ NN TO PRP . case dobj nsubj amod punct nmod 
+As they entered his aura, each servant-skin, hair, clothing, and garments-burst with an inner color. IN PRP VBD PRP$ NN , DT NN , NN , NN , CC NN IN DT JJ NN . conj punct case dobj amod nsubj mark det punct punct punct conj root conj nmod det cc nmod:poss punct 
+The priest raised an eyebrow. DT NN VBD DT NN . dobj det nsubj punct det 
+One's future, it appeared, could be influenced by how much one could pay one's artist. CD POS NN , PRP VBD , MD VB VBN IN WRB JJ CD MD VB CD POS NN . case advcl dobj mark parataxis nmod:poss advmod aux punct nsubj case nsubj auxpass punct nmod:poss advmod aux nsubjpass punct 
+Her Breath flowed out, puffing in the air. PRP$ NN VBD RP , VBG IN DT NN . nmod:poss advcl nmod case punct nsubj compound:prt punct det 
+It probably had to do with bravery-perhaps the patron was planning to propose marriage, or maybe he was a merchant about to sign a risky business deal. PRP RB VBD TO VB IN NNS DT NN VBD VBG TO VB NN , CC RB PRP VBD DT NN IN TO VB DT JJ NN NN . det ccomp nsubj det amod aux punct cop compound mark xcomp advmod xcomp nsubj mark nsubj dobj punct case conj nmod dobj mark mark cc acl advmod det 
+Why does it always have to be a child? WRB VBZ PRP RB VBP TO VB DT NN . advmod aux xcomp cop nsubj det advmod punct mark 
+Lightsong leaned his head back, resting it against the wall, looking up at the white ceiling. NNP VBD PRP$ NN RB , VBG PRP IN DT NN , VBG RP IN DT JJ NN . xcomp nmod punct dobj punct det punct compound:prt dobj case det nmod:poss nmod advcl advmod amod nsubj case 
+He gave the peasant's poem as good a review as he could, though he generally felt an impulse to be honest when he looked at Offerings. PRP VBD DT NN POS NN IN JJ DT NN IN PRP MD , IN PRP RB VBD DT NN TO VB JJ WRB PRP VBD IN NNS . nmod:poss punct punct advcl nmod dobj nsubj amod mark case nmod dobj advcl mark det case advmod acl advmod det advcl nsubj nsubj cop det case mark nsubj 
+Seems to fit you, the way you're always scooting around, poking into things and such." VBZ TO VB PRP , DT NN PRP VBP RB VBG RB , VBG IN NNS CC JJ . '' xcomp dobj cc det nsubj root advmod advmod nmod punct case root mark acl:relcl punct punct conj aux punct 
+It was an abstract work, a style that was growing more and more popular lately-particularly in paintings sent to him, since he'd given favorable reviews to others in the past. PRP VBD DT JJ NN , DT NN WDT VBD VBG RBR CC RBR JJ JJ IN NNS VBN TO PRP , IN PRP MD VBN JJ NNS TO NNS IN DT NN . punct case aux punct nmod appos xcomp acl:relcl punct case nsubj advmod cop acl case det nsubj case nmod advcl conj nmod mark advmod amod det dobj det nsubj amod cc aux nmod 
+Hallways were for servants, and they ran in a square around the outside of the building. NNS VBD IN NNS , CC PRP VBD IN DT JJ IN DT NN IN DT NN . case case case cop nmod case nmod nsubj nsubj det det punct det punct nmod cc conj 
+"You apologized for bothering me all the time and keeping me from my debauchery. `` PRP VBD IN VBG PRP PDT DT NN CC VBG PRP IN PRP$ NN . nmod:tmod root nmod advcl dobj case nmod:poss conj det:predet det punct cc dobj nsubj mark 
+Regardless of my belief in the religion itself, the perks are nice. RB IN PRP$ NN IN DT NN PRP , DT NNS VBP JJ . punct nmod advmod nmod:poss nmod:npmod cop nmod punct case det case det nsubj 
+Instead, I get to be a god. RB , PRP VBP TO VB DT NN . nsubj cop advmod xcomp punct punct det mark 
+Lightsong closed his eyes, trying to focus. NNP VBD PRP$ NNS , VBG TO VB . nmod:poss punct dobj advcl mark punct xcomp nsubj 
+I shouldn't be so cynical, Lightsong thought. PRP MD RB VB RB JJ , JJ NN . amod dep punct advmod nsubj aux neg cop punct 
+The prominent hue was a deep red, almost a crimson, that Lightsong immediately knew was a red-blue mixture with a hint of black in it. DT JJ NN VBD DT JJ NN , RB DT JJ , IN NNP RB VBD VBD DT JJ NN IN DT NN IN JJ IN PRP . nmod det case amod det advmod det amod advmod nmod cop nmod appos cop case punct case nsubj ccomp det punct punct acl:relcl dobj det nsubj amod 
+That was why the Iridescent Tones sent the Returned back; they acted examples, and blessings, to the people who still lived. DT VBD WRB DT NNP NNP VBD DT VBN RB : PRP VBD NNS , CC NNS , TO DT NNS WP RB VBD . punct punct punct xcomp parataxis punct nsubj advmod nsubj det conj nmod dobj det det compound advmod acl:relcl nsubj cc advcl advmod case nsubj 
+They passed through several more rooms of red and gold, most of which were perfectly square with doors on all four sides. PRP VBD IN JJ RBR NNS IN JJ CC NN , JJS IN WDT VBD RB JJ IN NNS IN DT CD NNS . punct nmod nsubj nmod nummod nmod case advmod case case amod nmod conj nsubj case cc det amod cop punct acl:relcl nmod case 
+Your priests will be otherwise employed." PRP$ NNS MD VB RB VBN . '' aux auxpass punct punct nsubjpass nmod:poss advmod 
+"Fledgling fruit," he said, giving up one of the Command phrases that would let others control the city's Lifeless. `` NN NN , '' PRP VBD , VBG RP CD IN DT NN NNS WDT MD VB NNS VBP DT NN POS JJ . punct parataxis nsubj compound:prt case acl:relcl punct nsubj det nsubj nsubj dobj punct ccomp compound nmod compound case aux punct dobj det punct nmod:poss 
+It would be burned. PRP MD VB VBN . auxpass nsubjpass punct aux 
+Lightsong fell silent, turning away from the men and their scribbling pens. NNP VBD JJ , VBG RB IN DT NNS CC PRP$ VBG NNS . punct conj det xcomp dep nmod nmod:poss cc nsubj amod advmod punct case 
+The priests began to chat quietly about preparations and the new queen. DT NNS VBD TO VB RB IN NNS CC DT JJ NN . punct nmod case amod cc mark conj det xcomp advmod nsubj det 
+By the time they neared the end of the line, Lightsong was getting tired of looking at art, though his body-fueled by the child's Breath-continued to feel strong and exhilarated. IN DT NN PRP VBD DT NN IN DT NN , NNP VBD VBG JJ IN VBG IN NN , IN PRP$ JJ IN DT NN POS JJ TO VB JJ CC JJ . aux nmod nmod:poss parataxis det case advcl mark conj mark cc punct det nmod nmod:poss xcomp nmod punct xcomp case dep det nsubj acl dobj nmod case case nsubj det advmod punct case 
+"Shall we be on with it then, your grace?" `` FW PRP VB IN IN PRP RB , PRP$ NN . '' cop advmod case nmod:poss punct nsubj punct advmod punct case punct nsubj 
+Yet with a donated Breath a week, they could continue on, ageless, with perfect bodies and minds. RB IN DT VBN NNP DT NN , PRP MD VB IN , JJ , IN JJ NNS CC NNS . nmod amod xcomp cc conj nmod:npmod punct case compound:prt punct det det amod nmod case cc nsubj punct punct aux 
+Cursing himself quietly, he knelt down on one knee, taking the girl's face in his oversized hands. VBG PRP RB , PRP VBD RP IN CD NN , VBG DT NN POS NN IN PRP$ JJ NNS . compound:prt advcl dobj nmod:poss nummod case det amod case punct nsubj nmod:poss advcl dobj advmod punct nmod nmod punct case 
+"You know I cannot speak of your life before your Return, Lightsong. `` PRP VBP PRP MD RB VB IN PRP$ NN IN PRP$ NN , NNP . nmod appos nsubj nsubj nmod:poss nmod:poss root ccomp aux punct punct nmod neg case case 
+Her brown hair lost some of its luster, her cheeks became more bland. PRP$ JJ NN VBD DT IN PRP$ NN , PRP$ NNS VBD RBR JJ . xcomp nsubj amod nmod:poss punct case parataxis nmod:poss advmod punct dobj nsubj nmod:poss nmod 
+Her family well paid for her sacrifice. PRP$ NN RB VBN IN PRP$ NN . nmod:poss punct nmod advmod nmod:poss nsubj case 
+It is nothing to her, Lightsong told himself again. PRP VBZ NN TO PRP , NNP VBD PRP RB . nsubj nmod nsubj dobj advmod punct case cop punct acl:relcl 
+At the center of the palace was a small, square room that deviated from the standard reds and golds of Lightsong's motif. IN DT NN IN DT NN VBD DT JJ , JJ NN WDT VBD IN DT JJ NNS CC NNS IN NNP POS NN . det amod nmod:poss nmod punct nmod cc conj case nmod punct nmod nsubj case amod case det acl:relcl det nsubj amod det case case 
+Lightsong sighed, looking up at the ceiling. NNP VBD , VBG RP IN DT NN . nmod compound:prt det nsubj punct case punct xcomp 
+He gave this last painting the time it deserved. PRP VBD DT JJ NN DT NN PRP VBD . nsubj iobj dobj det det nsubj acl:relcl amod punct 
+As Lightsong stepped into the room, the colors blazed to life. IN NNP VBD IN DT NN , DT NNS VBD TO NN . case case nsubj nmod det nmod mark nsubj punct det advcl punct 
+Most people say they can't even notice that their Breath is gone. JJS NNS VBP PRP MD RB RB VB IN PRP$ NN VBZ VBN . nsubjpass mark nsubj ccomp neg auxpass amod aux advmod nsubj punct ccomp nmod:poss 
+It puts me at peace, yet has a tension to it as well. PRP VBZ PRP IN NN , RB VBZ DT NN TO PRP RB RB . nmod case punct case dobj mwe det advcl punct dobj advmod nmod nsubj advmod 
+The girl looked back toward Lightsong, obviously nervous. DT NN VBD RB IN NNP , RB JJ . punct punct nsubj case advmod det advmod nmod xcomp 
+The servants stayed outside; only Mike joined Lightsong as he stepped up to the first painting. DT NNS VBD IN : RB NNP VBD NNP IN PRP VBD RB TO DT JJ NN . advcl mark parataxis det amod nsubj punct case det nsubj nsubj punct nmod advmod advmod dobj advmod 
+"Did I have a wife? `` VBD PRP VBP DT NN . punct punct dobj det nsubj aux 
+His aura didn't grow stronger from Breath upon which he fed; that was another difference between a Returned and an Awakener. PRP$ NN VBD RB VB JJR IN NNP IN WDT PRP VBD : DT VBD DT NN IN DT VBN CC DT NNP . nsubj parataxis nsubj case cc aux case case nmod:poss det nmod nsubj det neg dep nmod punct xcomp nmod punct cop conj det 
+The gods were a blessing. DT NNS VBD DT NN . det cop punct nsubj det 
+"Please try to remember the dreams, your grace," Mike said in his polite, yet disapproving, way. `` VB VB TO VB DT NNS , PRP$ NN , '' NNP VBD IN PRP$ JJ , RB VBG , NN . dep punct dobj punct punct nmod:poss dep mark nsubj dobj punct nmod aux dobj advmod punct nmod:poss det punct xcomp punct case 
+They provided visions of the future, as well as leadership and wisdom. PRP VBD NNS IN DT NN , RB RB IN NN CC NN . nsubj conj mwe cc dobj mwe det case nmod conj punct cc punct 
+Our new queen arrives today." PRP$ JJ NN VBZ NN . '' nmod:poss nsubj punct punct amod nmod:tmod 
+They passed from room to room. PRP VBD IN NN TO NN . nmod nmod case punct nsubj case 
+He didn't prompt for more information, he simply took down Lightsong's words as they came. PRP VBD RB VB IN JJR NN , PRP RB VBD RP NNP POS NNS IN PRP VBD . ccomp advmod nsubj advcl dobj amod nsubj nsubj neg punct aux punct case compound:prt nmod:poss mark nmod case 
+His hands were nearly hidden by the deep sleeves of his gold and red robe, and he carried a thick tome. PRP$ NNS VBD RB VBN IN DT JJ NNS IN PRP$ NN CC JJ NN , CC PRP VBD DT JJ NN . amod nsubjpass det conj advmod conj case punct cc amod nsubj cc punct nmod:poss case det auxpass nmod nmod:poss nmod dobj amod 
+He still didn't know what had killed him, and nobody would tell him, even if they all agreed that it had been a heroic way to pass. PRP RB VBD RB VB WP VBD VBN PRP , CC NN MD VB PRP , RB IN PRP DT VBD IN PRP VBD VBN DT JJ NN TO VB . nsubj cc neg conj aux det punct nsubj advmod dobj det nsubj mark acl aux advmod amod mark nsubj aux aux mark punct dobj ccomp ccomp advcl punct cop nsubj 
+"If we must," Lightsong said. `` IN PRP MD , '' NNP VBD . punct punct mark advcl nsubj punct nsubj punct 
+It was his feastday. PRP VBD PRP$ NN . nsubj punct cop nmod:poss 
+Lightsong stopped before the final painting. NNP VBD IN DT JJ NN . case amod nsubj punct nmod det 
+Servants entered, responding wordlessly to their god's needs. NNS VBD , VBG RB TO PRP$ NN POS NNS . nsubj case nmod:poss xcomp advmod punct case nmod punct nmod:poss 
+"I am honored, your grace," Mike said, seating himself on a chair. `` PRP VBP VBN , PRP$ NN , '' NNP VBD , VBG PRP IN DT NN . auxpass punct punct det xcomp case dep nmod:poss punct nsubjpass nmod nsubj punct punct dep punct dobj 
+"You were there, Scoot." `` PRP VBD RB , NNP . '' advmod cop punct punct nsubj punct punct 
+"We plan to attack her?" `` PRP VBP TO VB PRP . '' xcomp punct root dobj punct nsubj mark 
+If he looked at it right, it looked like a sea. IN PRP VBD IN PRP RB , PRP VBD IN DT NN . nsubj punct det nsubj nmod case nmod case advcl punct mark advmod 
+His priests, however, assured him that his death had been extremely brave. PRP$ NNS , RB , VBD PRP IN PRP$ NN VBD VBN RB VBP . nsubj aux advmod punct advmod punct dobj cop nmod:poss mark nmod:poss ccomp nsubj punct 
+All of this, he thought as he stood, because I couldn't figure out how to die. DT IN DT , PRP VBD IN PRP VBD , IN PRP MD RB VB RP WRB TO VB . punct mark nsubj ccomp dep nmod mark compound:prt advmod nsubj nsubj advcl case neg mark punct punct aux advcl 
+"Did you sleep well, your grace?" `` VBD PRP VB RB , PRP$ NN . '' dobj advmod aux punct punct punct nsubj nmod:poss punct 
+To the side, the lesser priest disappeared with the jungle painting. TO DT NN , DT JJR NN VBD IN DT NN NN . case case amod punct nmod det nmod punct compound det nsubj det 
+The priests hushed. DT NNS VBN . det punct nsubj 
+It's nothing, he thought. PRP VBZ NN , PRP VBD . nsubj punct nsubj punct cop ccomp 
+Priests hustled forward to lead the girl out of the room. NNS VBD RB TO VB DT NN IN IN DT NN . xcomp mark case nmod det det punct advmod case dobj nsubj 
+The girl grew dull. DT NN VBD JJ . det punct nsubj xcomp 
+the priest asked. DT NN VBD . nsubj det punct 
+Mike raised an eyebrow. NNP VBD DT NN . dobj det punct nsubj 
+Mike opened his tome. NNP VBD PRP$ NN . nmod:poss punct nsubj dobj 
+Mike raised an eyebrow over his bespectacled eyes. NNP VBD DT NN IN PRP$ JJ NNS . nmod case nsubj det punct dobj nmod:poss amod 
+Our lord the God King will be married." PRP$ NN DT NNP NNP MD VB VBN . '' nmod:poss punct punct det compound nsubjpass nsubjpass aux auxpass 
+The lesser priest scribbled down what Lightsong had said about the painting. DT JJR NN VBD RP WP NNP VBD VBN IN DT NN . nsubj dobj punct det nmod nsubj case amod compound:prt aux ccomp det 
+The Hallandren artisan's script was a specialized system of writing that wasn't based on form, but on color. DT JJ NN POS NN VBD DT JJ NN IN VBG DT VBD RB VBN IN NN , CC IN NN . ccomp amod amod nsubj det case nmod:poss mark nmod cc conj punct nsubjpass case punct neg auxpass acl det case cop 
+If a new queen was going to arrive today, he wanted to get a good look at her. IN DT JJ NN VBD VBG TO VB NN , PRP VBD TO VB DT JJ NN IN PRP . det dobj case punct nsubj nmod det xcomp mark mark amod advcl aux nmod:tmod punct mark amod nsubj xcomp 
+Lightsong moved away from the painting. NNP VBD RB IN DT NN . case det nmod punct advmod nsubj 
+"I could make some, I'm sure. `` PRP MD VB DT , PRP VBP JJ . punct dobj punct nsubj ccomp aux cop nsubj punct 
+Each bowed and retreated to the sides of the room. DT VBD CC VBD TO DT NNS IN DT NN . nmod nsubj case conj nmod det punct case cc det 
+She had become a Drab. PRP VBD VBN DT NNP . nsubj xcomp punct det aux 
+He would lack strength until he was fed. PRP MD VB NN IN PRP VBD VBN . nsubjpass nsubj advcl punct auxpass dobj aux mark 
+Mike scribbled furiously-he always got excited when Lightsong remembered colors. NNP VBD JJ RB VBD VBN WRB NNP VBD NNS . nsubjpass punct dobj advmod ccomp advmod auxpass advcl nsubj nsubj 
+Mike and the servants waited. NNP CC DT NNS VBD . conj cc punct nsubj det 
+Even if it's something useless. RB IN PRP VBZ NN JJ . amod punct nsubj cop mark advmod 
+They would live, seeing visions at night which would supposedly provide divinations of the future. PRP MD VB , VBG NNS IN NN WDT MD RB VB NNS IN DT NN . nmod aux case advmod det nsubj dobj xcomp nmod dep punct punct aux nsubj dobj case 
+The servants finished tying ribbons, doing clasps, and draping silks. DT NNS VBD VBG NNS , VBG NNS , CC VBG NNS . conj punct det punct punct dobj nsubj dobj dobj cc xcomp xcomp 
+The priests took her away. DT NNS VBD PRP$ RB . punct nsubj dobj det advmod 
+He moved along to the next work of art on the wall. PRP VBD RB TO DT JJ NN IN NN IN DT NN . nsubj case amod det case case advmod det nmod nmod nmod punct 
+It traveled along Lightsong's arm-the touch was necessary-and he drew it in. PRP VBD IN NNP POS JJ NN VBD JJ PRP VBD PRP IN . nmod:poss nsubj cop amod advmod ccomp case nsubj case csubj punct dobj nmod 
+Before I died, I mean." IN PRP VBD , PRP VBP . '' mark nsubj nsubj punct punct punct advcl 
+Lightsong stepped forward, and the little girl glanced to the side, where a couple of priests stood in red and gold robes. NNP VBD RB , CC DT JJ NN VBD TO DT NN , WRB DT NN IN NNS VBD IN JJ CC JJ NNS . advmod det nmod cc acl:relcl nsubj conj nmod nsubj amod conj amod punct case punct punct nsubj nmod det case det case cc advmod 
+Somewhere, there was a city patron who sought a blessing from Lightsong. RB , EX VBD DT NN NN WP VBD DT NN IN NNP . punct advmod det case nsubj punct nsubj expl det compound nmod dobj acl:relcl 
+And yet, the girl trembled. CC RB , DT NN VBD . punct advmod nsubj det punct cc 
+Hundreds of servants and priests to saw to his needs-whether he wanted them seen to or not. NNS IN NNS CC NNS TO NN TO PRP$ NN PRP VBD PRP VBN TO CC RB . nmod:poss acl:relcl ccomp conj nmod case case dep nmod cc nsubj nsubj nmod cc case punct conj 
+My Breath become yours." PRP$ NN VB PRP$ . '' xcomp nsubj nmod:poss punct punct 
+There were some two dozen deities in the Court of Gods, and many were far more important-and far more politically savvy-than Lightsong. EX VBD DT CD NN NNS IN DT NNP IN NNS , CC JJ VBD RB RBR JJ RB RBR RB JJ NNP . nummod advmod punct nmod advmod advmod nsubj compound conj case advmod advmod det case advmod cc nsubj amod expl nmod cop dep punct 
+There were some of these plants in the courtyards around the Court of Gods, which was why Lightsong recognized them. EX VBD DT IN DT NNS IN DT NNS IN DT NNP IN NNS , WDT VBD WRB NNP VBD PRP . nmod nmod nmod punct case case dobj det advcl nmod expl nsubj nsubj advmod punct det case acl:relcl det case nsubj 
+"Kneeling reverently in the courtyard, your grace. `` VBG RB IN DT NN , PRP$ NN . advmod det dep punct nmod:poss nmod case punct punct 
+Or, at least, that was what his priests told him. CC , IN JJS , DT VBD WP PRP$ NNS VBD PRP . nmod:poss punct punct punct cc dobj mwe nsubj dobj nsubj advmod ccomp 
+Of all the people in the world, he had the least right to be difficult. IN PDT DT NNS IN DT NN , PRP VBD DT JJS NN TO VB JJ . det acl cop det det mark nsubj dobj punct nmod nmod case case punct det:predet amod 
+The color of her face and eyes faded slightly, though the change was very difficult to see. DT NN IN PRP$ NN CC NNS VBD RB , IN DT NN VBD RB JJ TO VB . det nmod cc punct punct nmod:poss advmod advmod mark mark cop nsubj det case nsubj advcl conj ccomp 
+Five years ago he had died. CD NNS IN PRP VBD VBN . advmod nsubj aux nmod:npmod punct nummod 
+Perhaps the reason nobody was allowed to talk about his former life was because they didn't want anyone to know that Lightsong the Brave had actually died from a stomach cramp. RB DT NN NN VBD VBN TO VB IN PRP$ JJ NN VBD IN PRP VBD RB VB NN TO VB IN NNP DT NNP VBD RB VBN IN DT NN NN . nsubj nmod:poss case nsubj xcomp det nmod neg acl:relcl aux mark det advmod ccomp xcomp nmod nsubjpass compound nsubj auxpass amod mark advcl mark advmod punct aux dobj case mark det compound 
+"The Court gets a bit old sometimes." `` DT NNP VBZ DT NN JJ RB . '' nmod:npmod xcomp advmod punct root punct det nsubj det 
+The phrase he'd given to Mike would only allow a person to control the Lifeless in non-combat situations, and it would expire one day after its first use. DT NN PRP VBD VBN TO NNP MD RB VB DT NN TO VB DT JJ IN JJ NNS , CC PRP MD VB CD NN IN PRP$ JJ NN . punct aux amod aux nmod:tmod nmod:poss conj nsubj mark nsubj nsubj nmod aux advmod xcomp acl:relcl det amod cc dobj case nummod case nmod punct case det dobj nmod det 
+"The ship had a red sail," Lightsong said. `` DT NN VBD DT JJ NN , '' NNP VBD . det punct nsubj dobj amod punct punct ccomp det punct nsubj 
+A lesser priest rushed forward, removing it. DT JJR NN VBD RB , VBG PRP . punct det xcomp dobj amod nsubj advmod punct 
+It was painted with a mural, of course. PRP VBD VBN IN DT NN , IN NN . det nmod auxpass nsubjpass punct case punct nmod case 
+One duty left, he thought. CD NN VBD , PRP VBD . ccomp nsubj punct nsubj punct nummod 
+There was nothing to fear from the Returned Gods of the Hallandren. EX VBD NN TO VB IN DT NNP NNS IN DT NNP . punct case nsubj mark case det acl nmod nmod expl det compound 
+He slept in a room draped with silks, dyed with bright reds and yellows. PRP VBD IN DT NN VBD IN NNS , VBN IN JJ NNS CC NNS . dep punct punct conj nsubj amod det case nmod nmod dep case nmod case cc 
+Near the eastern side of the palace, they entered a long, thin room. IN DT JJ NN IN DT NN , PRP VBD DT RB , JJ NN . nmod punct det det punct case dobj nmod amod nsubj punct amod det amod case 
+The priests would interpret Lightsong's opinion of the painting, then give the person an augury-either for good or for ill-along with the exact words Lightsong had said. DT NNS MD VB NNP POS NN IN DT NN , RB VB DT NN DT NN IN JJ CC IN JJ IN DT JJ NNS NNP VBD VBN . punct advmod aux dep case dobj det nmod iobj case dobj nsubj nmod det det amod det aux nmod case acl:relcl conj case nsubj det case nmod:poss punct cc 
+And above them all reigned Susebron, the God King of Hallandren. CC IN PRP DT VBD NNP , DT NNP NNP IN NNP . case case nmod dobj appos punct nmod det punct det cc compound 

@@ -1,0 +1,7 @@
+siri	outside not_unimportant unimportant busy not_good not_devout 
+mab	not_evil flat useful 
+austre	not_evil 
+vivenna	not_timid soft ready pristine proud stronger 
+yarda	silent 
+hallandren	fine tempting 
+dedelin	dedelin foolish good calm devout 

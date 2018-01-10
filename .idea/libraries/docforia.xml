@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="docforia">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../docforia-master/out/artifacts/docforia_jar/docforia.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
