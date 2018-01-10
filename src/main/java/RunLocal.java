@@ -11,6 +11,12 @@ import java.nio.file.Paths;
 import java.util.*;
 import java.util.stream.Collectors;
 
+/**
+ * Runs the description extrator on a local file. Use by providing filename and mode as arguments. If mode is "existing"
+ * it will look for the file in the "annotations" folder where already annotated documents are. If mode is "new" it will
+ * look in the "corpus" folder and select an unnanotated document and send it to the Langforia API for annotation.
+ * Depending on the file size annotation can take a lot of time.
+ */
 public class RunLocal {
 	public static void main(String[] args) {
 		try {

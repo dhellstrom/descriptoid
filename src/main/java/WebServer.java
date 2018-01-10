@@ -11,6 +11,9 @@ import se.lth.cs.docforia.query.StreamUtils;
 import java.util.*;
 import java.util.stream.Collectors;
 
+/**
+ * Start a webserver that can be queried with a string. Used together with the descriptoid-frontend.
+ */
 public class WebServer {
     public static void main(String[] args) {
         try {

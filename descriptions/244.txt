@@ -1,14 +1,16 @@
-brother stangerson	coarse fond tall 
-tobias gregson	fat_hands smartest wild 
-alice	innocent very_lips frightened 
-charles	firm_head 
-john ferrier	skilful_hands better well-to-do rich rudy_cheek elastic_cheek silent happy_eyes bright_eyes light-coloured_eyelashes threatening_hands gaunt_hands mistaken powerless own_feet absent own 
-latter day saints	busy 
-enoch j. drebber	excited worse drunk pleased hot own_hands glad mad 
-jefferson hope	keen successful inflexible likely inexorable own_hand gaunt_hand black_hair able 
-lucy ferrier	cold_forehead 
-messrs. lestrade	first wrong sure 
-brigham young	broad_hand rough_hand 
-sherlock holmes	certain own_eyes ready free little unresponsive_hand able sulky quiet regular sharp_eyes piercing_eyes thin_nose hawk-like_nose sure nimble_fingers 
+young	broad_hand rough_hand 
+houndsditch	limp 
+alice	innocent low effective very_lips bold frightened 
 sally	bleared_eyes more little_eyes red-rimmed_eyes 
-henrietta street	empty 
+charles	firm_head 
+saints	busy 
+sherlock holmes	accustomed last wild not_much nimble_fingers bustling delighted sulky quiet regular taller sharp_eyes piercing_eyes thin_nose hawk-like_nose much little exciting likely sickish sorry impossible last good free unresponsive_hand 
+enoch j. drebber	present excited worse poor vagrant drunk pleased separated heavy hot long powerful little glad sweet mad 
+tobias gregson	fat_hands crest-fallen smartest 
+joseph stangerson	coarse worse fond tall white 
+john rance	wrong irritated 
+jefferson hope	not_likely commonplace enough other last bewildered stunned round thorough worn gaunt_hand black_hair last keen successful favourite inflexible 
+john ferrier	skilful_hands well-to-do rich contented adhering celibate taller stronger rudy_cheek elastic_cheek lithe_figure girlish_figure silent bright_eyes happy_eyes light-coloured_eyelashes true silent last easier last threatening_hands gaunt_hands not_mistaken single-handed powerless to-night absent long 4th 
+lucy ferrier	inexorable cold_forehead 
+brother stangerson	good other 
+messrs. lestrade	other thick first full interesting wrong good 
