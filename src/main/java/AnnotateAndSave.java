@@ -1,38 +1,30 @@
-import se.lth.cs.docforia.Document;
-import se.lth.cs.docforia.memstore.MemoryDocument;
-
-import java.io.BufferedWriter;
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.stream.Stream;
 
+/**
+ * Used to read text from a file and save the annotated text in a file on binary Docforia format.
+ */
 public class AnnotateAndSave {
 
     public static void main(String[] args) {
-        String fileName = "16-0.txt";
-//        try (Stream<Path> paths = Files.walk(Paths.get("corpus/"))) {
+        if (args.length == 1) {
+            String fileName = args[0] + ".txt";
 
-//            paths.filter(Files::isRegularFile).map(s -> s.toString().split("\\\\")[1]).forEach(fileName -> {
+            System.out.println(fileName);
+            Novel novel = GutenbergReader.readNovel(Paths.get("test_corpus/" + fileName));
+            byte[] binary = HttpRequester.requestBinary(novel.getContent());
 
-                System.out.println(fileName);
-                Novel novel = GutenbergReader.readNovel(Paths.get("test_corpus/" + fileName));
-                byte[] binary = HttpRequester.requestBinary(novel.getContent());
-
-                try {
-                    OutputStream writer = Files.newOutputStream(Paths.get("test_annotations/" + fileName));
-                    writer.write(binary);
-                    writer.close();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-//                System.out.println("One file done, some more to go...");
-//            });
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
+            try {
+                OutputStream writer = Files.newOutputStream(Paths.get("test_annotations/" + fileName));
+                writer.write(binary);
+                writer.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        } else {
+            System.out.println("File name missing.");
+        }
     }
 }

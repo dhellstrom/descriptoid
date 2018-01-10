@@ -1,28 +1,29 @@
-japan	unknown 
-benares	south-westward 
-shanghai river	due 
-bank of england	good same 
-suez canal	9th least 9th 
-monsieur phileas fogg	unconscious capable contented domestic afraid able due tranquil interrupted due due servant contented contented natural more rather more prudent great convenient convenient convenient convenient more more convenient doubtful rich lavish communicative absented absented exact slow left_hand light_hair pale_hair compact_hair compact unwrinkled magnificent_teeth exact ready economical parisian blue_eyes brown_hair own ready glad lunatic glad glad contented self-composed able honourable honourable honourable honourable anxious ignorant undecided pleased bolder relative gracious own justified calm taciturn half-way delighted clenched_fist behind-hand second safe less distant honest courageous honest courageous guilty blind honest free behind-hand own criminal dead eccentric happiest behind-hand rich pleased magnificent careful expensive embarrassed ready due able serviceable devoted high_head unwilling contented contented 
-united states	located 
-aouda	pensive relative great_eyes sheltered thunderstruck anxious safe guilty 
-joe smith	angry_eyes 
-gauthier ralph	safe 
-yokohama	plentiful sure 
-calcutta	due 
-east india company	venerated whirling cheap 
-singapore	due distant 
-andrew stuart	good 
-medicine bow	suspension-bridge impossible 
-jean passepartout	proud due less astonished perplexed perplexed perplexed ready unfortunate enraged furious best merry speechless bold unconscious more ignorant able restless victorious beaten long slow astounded ready wide_eyes good_eyes stupefied vain fine_eyes white_cheeks delicate_cheeks great_eyes clear_eyes curved_ears narrow_waist supple_waist tunic fine_eyes better_lips delighted certain white convenient parisian familiar important furious amusing ignorant relieved convinced delighted agreeable 
-mudge	confident afraid 
-eight thousand dollars	worth 
+passepartout	ready delighted ignorant last useless relieved relieved convinced convinced delighted uneasy sure certain certain white blind not_longer furious amusing anxious victorious beaten long slow astounded ready not_convenient ignorant whirling interested restless saddle-cloth familiar whimsical irregular good impossible stupefied frequent last fine_eyes white_cheeks delicate_cheeks great_eyes clear_eyes curved_ears narrow_waist supple_waist rounded_figure fine_eyes important wide wide_eyes good_eyes whirling convenient calmer poor japanese delightful wise first native last natural_feature proud nervous less perplexed ready more unfortunate enraged furious unable best old funny disturbed disappointed merry merry empty speechless bold more more unconscious 
+aouda	delighted relative clear great_eyes distant anxious glorious pale pale first safe guilty faithful unharmed thunderstruck pensive sheltered cold 
+parsee	grateful impossible 
+stephenson	unable 
 jumna	unconscious safe 
-proctor	conspicuous delighted second 
-bombay	due 
-paris	parisian 
-london institution	absented distant due 
-john bunsby	able 
-new york	necessary 
-kiouni	present 
-saville row	noticeable doubtful 
+mudge	confident not_afraid 
+reform	famous 
+sea	full boisterous 
+company	all-powerful 
+indian	indian indian indian 
+english	unable 
+singapore	distant 
+tankadere	light 
+carnatic	13th carnatic carnatic 
+japanese	japanese japanese sacred japanese 
+xxiii	poor 
+grant	23rd 
+bank	rich 
+proctor	conspicuous delighted 
+frenchman	american 
+american	american unmoved 
+indians	first 
+dollars	worth 
+henrietta	ready short old 
+monsieur phileas fogg	whirling outside capable necessary not_afraid sorry tranquil rather clear_eyes more familiar ignorant general warm furious magnificent indian indian careful expensive embarrassed ready familiar serviceable devoted high_head unwilling contented vain latter narrative justified 2nd 11th calm taciturn half-way half-way false unreliable necessary delighted delighted clenched_fist not_behind-hand likely other other motionless safe last distant guilty guilty blind motionless calm honest free behind-hand holiest criminal dead eccentric fatal small agreeable instant happiest necessary more convenient more doubtful rich not_lavish communicative not_absented prompt regular 2nd exact slow slow lively light pale compact light_hair pale_hair compact_hair magnificent_teeth exact ready economical parisian vain blue_eyes portly_figure well-built_figure brown_hair sure possible good ready glad unnecessary lunatic self-composed interior impressed honourable anxious ignorant undecided heartless true good interrupted round contented behind-hand behind-hand 9th rich mysterious impenetrable little pleased 
+john sullivan	true 
+gauthier ralph	clear likely unnecessary 
+decimus smith	angry_eyes 
+john bunsby	not_wrong last pleasant 

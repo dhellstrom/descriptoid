@@ -1,17 +1,15 @@
-import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
 import se.lth.cs.docforia.Document;
-import se.lth.cs.docforia.Edge;
 import se.lth.cs.docforia.Node;
 import se.lth.cs.docforia.NodeEdge;
 import se.lth.cs.docforia.graph.text.*;
-import se.lth.cs.docforia.query.*;
+import se.lth.cs.docforia.query.NodeTVar;
+import se.lth.cs.docforia.query.StreamUtils;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.*;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class NovelProcessor {
 
@@ -40,27 +38,12 @@ public class NovelProcessor {
             }
         }
 
-//        NodeTVar<Token> T = Token.var();
-//        NodeTVar<NamedEntity> NE = NamedEntity.var();
-//        Stream<PropositionGroup> namedEntities = doc.select(T, NE).where(T).coveredBy(NE)
-//                .stream()
-//                .collect(QueryCollectors.groupBy(doc, NE).orderByValue(T).collector())
-//                .stream();
-//
-//
-//        namedEntities.forEach(group -> {
-//            StringBuffer sb = new StringBuffer();
-//            group.forEach(token -> sb.append(token.get(T) + " "));
-//            String name = sb.toString().trim().toLowerCase();
-//            uniqueNames.add(name);
-//        });
         return uniqueNames;
     }
 
     /**
      * Extracts descriptions of the named enetiites in uniqueNames. Returns a map with names as keys
      * and a list containing Tokens for the descriptive words.
-     * <p>
      * The tokens are either adjectives or nouns. If it is a noun it will be a body part and the succeeding token will
      * be the description of that body part.
      */
@@ -122,7 +105,9 @@ public class NovelProcessor {
         return descriptionMap;
     }
 
-
+    /**
+     *  Used to generate a training set for a machine learning classifier.
+     */
     public Map<Sentence, Integer> getMLSentences(Set<String> uniqueNames) {
         Random rand = new Random(42);
         Map<Sentence, Integer> sentenceMap = new HashMap<>();
@@ -150,11 +135,11 @@ public class NovelProcessor {
                             usedEntities.add(token);
                             int prevSize = description.size();
                             description.addAll(getDescriptions(token, usedDescriptions));
-                        NodeTVar<Sentence> S = Sentence.var();
-                        List<Sentence> sentences = doc.select(S).where(S).covering(token)
-                                .stream()
-                                .map(StreamUtils.toNode(S))
-                                .collect(Collectors.toList());
+                            NodeTVar<Sentence> S = Sentence.var();
+                            List<Sentence> sentences = doc.select(S).where(S).covering(token)
+                                    .stream()
+                                    .map(StreamUtils.toNode(S))
+                                    .collect(Collectors.toList());
 
                             if (description.size() != prevSize) {
                                 sentenceMap.put(sentences.get(0), 1);
@@ -192,9 +177,9 @@ public class NovelProcessor {
     }
 
     /**
-     *  Finds all mentions that can be linked to a named entity and returns them as a map
-     *  where the key is the entity name and the value is a list containing the Tokens corresponding
-     *  to mentions of that entity.
+     * Finds all mentions that can be linked to a named entity and returns them as a map
+     * where the key is the entity name and the value is a list containing the Tokens corresponding
+     * to mentions of that entity.
      */
     public Map<String, List<Token>> getEntityMentions(Set<String> uniqueNames) {
 
@@ -208,21 +193,28 @@ public class NovelProcessor {
         for (CoreferenceChain chain : chains) {
             List<CoreferenceMention> mentions = chain.inboundNodes(CoreferenceMention.class).toList();
             String name = mostFrequentName(mentions, uniqueNames);
-            if (name != null) {
-                List<Token> entityTokens = new LinkedList<>();
-                for (CoreferenceMention mention : mentions) {
+            if (name == null) {
+                name = "unknown";
+            }
+            List<Token> entityTokens = new LinkedList<>();
+            for (CoreferenceMention mention : mentions) {
 
-                    List<Token> tokens = doc.select(T).where(T).coveredBy(mention)
-                            .stream().map(StreamUtils.toNode(T)).collect(Collectors.toList());
-                    entityTokens.addAll(tokens);
-                    usedEntities.addAll(tokens);
-                }
+                NodeTVar<Sentence> S = Sentence.var();
+                List<Sentence> sentences = doc.select(S).where(S).covering(mention)
+                        .stream()
+                        .map(StreamUtils.toNode(S))
+                        .collect(Collectors.toList());
+                System.out.println(sentences.get(0));
+                List<Token> tokens = doc.select(T).where(T).coveredBy(mention)
+                        .stream().map(StreamUtils.toNode(T)).collect(Collectors.toList());
+                entityTokens.addAll(tokens);
+                usedEntities.addAll(tokens);
+            }
 
-                if (entityMap.containsKey(name)) {
-                    entityMap.get(name).addAll(entityTokens);
-                } else {
-                    entityMap.put(name, entityTokens);
-                }
+            if (entityMap.containsKey(name)) {
+                entityMap.get(name).addAll(entityTokens);
+            } else {
+                entityMap.put(name, entityTokens);
             }
         }
 
@@ -247,29 +239,35 @@ public class NovelProcessor {
         return entityMap;
     }
 
+    /**
+     * Extracts all descriptions connected to the token corresponding to the rules.
+     */
     private List<Token> getDescriptions(Token token, Set<Token> usedDescriptions) {
         List<Token> description = new LinkedList<>();
         for (NodeEdge<Token, DependencyRelation> inbound : token.inboundNodeEdges(DependencyRelation.class, Token.class)) {
             Token inboundNode = inbound.node();
             DependencyRelation inboundEdge = inbound.edge();
-                            /*If the inbound node is an adjective describing the entity*/
+            /*If the inbound node is an adjective describing the entity*/
             if (inboundNode.getCoarsePartOfSpeech().equals("ADJ") && inboundEdge.getRelation().equals("nsubj")) {
                 description.addAll(extractAdjectives(inboundNode, usedDescriptions));
 
-                            /*If the inbound node is a body part we trý to find an adjective describing it*/
+                /*If the inbound node is a body part we trý to find an adjective describing it*/
             } else if (inboundNode.getCoarsePartOfSpeech().equals("NOUN") && inboundEdge.getRelation().equals("nmod:poss")
                     && bodyParts.contains(inboundNode.getLemma())) {
                 description.addAll(extractBodyPart(inboundNode, usedDescriptions));
 
-                             /*If the inbound node is a verb */
+                /*If the inbound node is a verb */
             } else if (inboundNode.getCoarsePartOfSpeech().equals("VERB")) {
-                                /*If the verb is 'have' we see if the dobj is a body part and try to get the description of it*/
+                /*If the verb is 'have' we see if the dobj is a body part and try to get the description of it*/
                 if (inboundNode.getLemma().equals("have")) {
                     for (Token bodyPart : inboundNode.outboundNodes(Token.class)) {
                         if (bodyPart.getCoarsePartOfSpeech().equals("NOUN") && bodyParts.contains(bodyPart.getLemma())) {
                             description.addAll(extractMultipleBodyParts(bodyPart, usedDescriptions));
                         }
                     }
+                    /*If it is some other verb we check if the entity is the subject of the verb. If that is the
+                    * case we check if there are any adjectives connected to the verb. Catches descriptions on the form
+                    * 'He looked tall'.*/
                 } else if (inboundEdge.getRelation().equals("nsubj")) {
                     for (Token possibleAdj : inboundNode.outboundNodes(Token.class)) {
                         if (possibleAdj.getCoarsePartOfSpeech().equals("ADJ")) {
@@ -283,6 +281,13 @@ public class NovelProcessor {
     }
 
 
+    /**
+     * Finds the name in uniqueNames that appears most frequently in mentions. If there are no names (e.g. if
+     * all mentions are he or she) returns null.
+     * @param mentions A list of characer mentions.
+     * @param uniqueNames A list of names.
+     * @return The most frequent name if there is one, null otherwise.
+     */
     private String mostFrequentName(List<? extends Node> mentions, Set<String> uniqueNames) {
         Map<String, Integer> counter = new LinkedHashMap<>();
         for (Node n : mentions) {
@@ -314,6 +319,12 @@ public class NovelProcessor {
         }
     }
 
+    /**
+     * Creates a map with all names containing more than one word and the words they "cover", i.e the names that
+     * can be formed as a combination of the words in the name.
+     * @param names A list of names.
+     * @return A map containing names and a list of other names they cover.
+     */
     public Map<String, Set<String>> nameClusters(Set<String> names) {
         List<String> multiWordNames = new ArrayList<>();
         Map<String, Set<String>> clusters = new LinkedHashMap<>();
@@ -351,6 +362,12 @@ public class NovelProcessor {
         return clusters;
     }
 
+    /**
+     * Clusters the names in descriptionMap so that all descriptions for one entity that is referenced to by
+     * multiple names are associated to one name (the longest).
+     * @param nameClusters A map with names and the other names that an be formed as a combination of them.
+     * @param descriptionMap The map of descriptions. Modified so that no two names reference the same entity.
+     */
     public void clusterNames(Map<String, Set<String>> nameClusters, Map<String, List<Token>> descriptionMap) {
 
         Set<String> descriptionKeys = descriptionMap.keySet();
@@ -386,11 +403,9 @@ public class NovelProcessor {
         for (Token bodyPartDesc : bodyPart.connectedNodes(Token.class)) {
             if (bodyPartDesc.getCoarsePartOfSpeech().equals("ADJ")) {
                 extractAdjectives(bodyPartDesc, usedDescriptions).forEach(adjective -> {
-                    if (!usedDescriptions.contains(adjective)) {
-                        description.add(bodyPart);
-                        description.add(adjective);
-                        usedDescriptions.add(adjective);
-                    }
+                    description.add(bodyPart);
+                    description.add(adjective);
+                    usedDescriptions.add(adjective);
                 });
             }
         }

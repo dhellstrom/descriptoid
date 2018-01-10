@@ -1,15 +1,14 @@
-brother stangerson	cunning tall novel coarse fond 
-houndsditch	close 
-tobias gregson	fat_hands smartest 
-alice	more innocent very_lips 
-john ferrier	skilful_hands better well-to-do rich contented adhering rudy_cheek elastic_cheek thick silent happy_eyes bright_eyes own light-coloured_eyelashes threatening_hands gaunt_hands mistaken powerless own_feet absent own own own own own 
-enoch j. drebber	drunk pleased own excited worse hot own_hands glad mad 
-jefferson hope	inexorable own_hand gaunt_hand black_hair likely keen volcanic successful sore inflexible fierce dangerous 
+brother stangerson	coarse fond tall 
+tobias gregson	fat_hands smartest wild 
+alice	innocent very_lips frightened 
+charles	firm_head 
+john ferrier	skilful_hands better well-to-do rich rudy_cheek elastic_cheek silent happy_eyes bright_eyes light-coloured_eyelashes threatening_hands gaunt_hands mistaken powerless own_feet absent own 
+latter day saints	busy 
+enoch j. drebber	excited worse drunk pleased hot own_hands glad mad 
+jefferson hope	keen successful inflexible likely inexorable own_hand gaunt_hand black_hair able 
 lucy ferrier	cold_forehead 
-united states	located 
-messrs. lestrade	first wrong 
+messrs. lestrade	first wrong sure 
 brigham young	broad_hand rough_hand 
-john rance	afraid 
-sherlock holmes	little unresponsive_hand narrative certain own_eyes sorry ready free sure nimble_fingers open-mouthed sulky quiet regular sharp_eyes piercing_eyes thin_nose hawk-like_nose own able 
-sally	old wrinkled old wrinkled old wrinkled bleared_eyes more little_eyes red-rimmed_eyes 
+sherlock holmes	certain own_eyes ready free little unresponsive_hand able sulky quiet regular sharp_eyes piercing_eyes thin_nose hawk-like_nose sure nimble_fingers 
+sally	bleared_eyes more little_eyes red-rimmed_eyes 
 henrietta street	empty 

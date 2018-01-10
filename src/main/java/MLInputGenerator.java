@@ -17,10 +17,12 @@ import java.util.stream.Collectors;
 
 public class MLInputGenerator {
     public static void main(String[] args) {
-        String fileName = "16-0";
+        String fileName = "test2";
         Document doc = DocforiaReader.readBinaryFile(Paths.get("test_annotations/" + fileName +".txt"));
         NovelProcessor processor = new NovelProcessor(doc);
         Set<String> uniqueNames = processor.extractUniqueNames();
+
+        uniqueNames.forEach(System.out::println);
 
         Map<String, List<Token>> entityMap = processor.getEntityMentions(uniqueNames);
 
@@ -30,22 +32,24 @@ public class MLInputGenerator {
 
         try {
             BufferedWriter writer = Files.newBufferedWriter(Paths.get("MLInput.txt"));
+            BufferedWriter writer2 = Files.newBufferedWriter(Paths.get("MLSentences.txt"));
 
             NodeTVar<Sentence> S = Sentence.var();
             for (Map.Entry<String, List<Token>> e : entityMap.entrySet()) {
                 String name = e.getKey();
                 List<Token> entities = e.getValue();
 
-//                sb.append(name + "\n");
+                System.out.println(name);
+                writer.write("###" + name + "\n");
+                writer2.write("###" + name + "\n");
 
                 Set<Sentence> sentences = new HashSet<>();
                 for (Token entity: entities) {
                     Sentence sentence = doc.select(S).where(S).covering(entity)
                             .stream().map(StreamUtils.toNode(S)).collect(Collectors.toList()).get(0);
                     sentences.add(sentence);
+                    System.out.println("Entity: " + entity.toString() + "\nSentence: " + sentence.toString());
                 }
-//                sentences.forEach(s -> sb.append('\t' + s.toString() + '\n'));
-//                sb.append('\n');
 
                 for (Sentence sentence : sentences) {
                     NodeTVar<Token> T = Token.var();
@@ -63,9 +67,11 @@ public class MLInputGenerator {
                         sb.append(deprel.getRelation() + " ");
                     }
                     writer.write(sb.toString() + '\n');
+                    writer2.write(sentence.toString() + '\n');
                 }
             }
             writer.close();
+            writer2.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
