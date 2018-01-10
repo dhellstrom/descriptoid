@@ -3,6 +3,11 @@ import java.util.List;
 
 public class Utils {
 
+    /**
+     * Generates all possible conbinations of words in the string.
+     * @param s The string to generate combinations of.
+     * @return A list containing the combinations.
+     */
     public static List<String> wordCombinations(String s) {
         List<String> result = new LinkedList<>();
         String[] words = s.split(" ");

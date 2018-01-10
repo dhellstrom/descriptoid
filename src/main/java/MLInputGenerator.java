@@ -17,63 +17,68 @@ import java.util.stream.Collectors;
 
 public class MLInputGenerator {
     public static void main(String[] args) {
-        String fileName = "test2";
-        Document doc = DocforiaReader.readBinaryFile(Paths.get("test_annotations/" + fileName +".txt"));
-        NovelProcessor processor = new NovelProcessor(doc);
-        Set<String> uniqueNames = processor.extractUniqueNames();
 
-        uniqueNames.forEach(System.out::println);
+        if (args.length == 1) {
+            String fileName = args[0];
+            Document doc = DocforiaReader.readBinaryFile(Paths.get("test_annotations/" + fileName + ".txt"));
+            NovelProcessor processor = new NovelProcessor(doc);
+            Set<String> uniqueNames = processor.extractUniqueNames();
 
-        Map<String, List<Token>> entityMap = processor.getEntityMentions(uniqueNames);
+            uniqueNames.forEach(System.out::println);
 
-        Map<String, Set<String>> clusters = processor.nameClusters(uniqueNames);
+            Map<String, List<Token>> entityMap = processor.getEntityMentions(uniqueNames);
 
-        processor.clusterNames(clusters, entityMap);
+            Map<String, Set<String>> clusters = processor.nameClusters(uniqueNames);
 
-        try {
-            BufferedWriter writer = Files.newBufferedWriter(Paths.get("MLInput.txt"));
-            BufferedWriter writer2 = Files.newBufferedWriter(Paths.get("MLSentences.txt"));
+            processor.clusterNames(clusters, entityMap);
 
-            NodeTVar<Sentence> S = Sentence.var();
-            for (Map.Entry<String, List<Token>> e : entityMap.entrySet()) {
-                String name = e.getKey();
-                List<Token> entities = e.getValue();
+            try {
+                BufferedWriter writer = Files.newBufferedWriter(Paths.get("MLInput.txt"));
+                BufferedWriter writer2 = Files.newBufferedWriter(Paths.get("MLSentences.txt"));
 
-                System.out.println(name);
-                writer.write("###" + name + "\n");
-                writer2.write("###" + name + "\n");
+                NodeTVar<Sentence> S = Sentence.var();
+                for (Map.Entry<String, List<Token>> e : entityMap.entrySet()) {
+                    String name = e.getKey();
+                    List<Token> entities = e.getValue();
 
-                Set<Sentence> sentences = new HashSet<>();
-                for (Token entity: entities) {
-                    Sentence sentence = doc.select(S).where(S).covering(entity)
-                            .stream().map(StreamUtils.toNode(S)).collect(Collectors.toList()).get(0);
-                    sentences.add(sentence);
-                    System.out.println("Entity: " + entity.toString() + "\nSentence: " + sentence.toString());
-                }
+                    System.out.println(name);
+                    writer.write("###" + name + "\n");
+                    writer2.write("###" + name + "\n");
 
-                for (Sentence sentence : sentences) {
-                    NodeTVar<Token> T = Token.var();
-                    List<Token> tokens = doc.select(T).where(T).coveredBy(sentence).stream().map(StreamUtils.toNode(T)).collect(Collectors.toList());
-
-                    StringBuffer sb = new StringBuffer();
-                    Set<DependencyRelation> deprels = new HashSet<>();
-                    sb.append(sentence.toString() + " ");
-                    for (Token t : tokens) {
-                        sb.append(t.getPartOfSpeech() + " ");
-                        deprels.addAll(t.connectedEdges(DependencyRelation.class).toList());
+                    Set<Sentence> sentences = new HashSet<>();
+                    for (Token entity : entities) {
+                        Sentence sentence = doc.select(S).where(S).covering(entity)
+                                .stream().map(StreamUtils.toNode(S)).collect(Collectors.toList()).get(0);
+                        sentences.add(sentence);
+                        System.out.println("Entity: " + entity.toString() + "\nSentence: " + sentence.toString());
                     }
 
-                    for (DependencyRelation deprel : deprels) {
-                        sb.append(deprel.getRelation() + " ");
+                    for (Sentence sentence : sentences) {
+                        NodeTVar<Token> T = Token.var();
+                        List<Token> tokens = doc.select(T).where(T).coveredBy(sentence).stream().map(StreamUtils.toNode(T)).collect(Collectors.toList());
+
+                        StringBuffer sb = new StringBuffer();
+                        Set<DependencyRelation> deprels = new HashSet<>();
+                        sb.append(sentence.toString() + " ");
+                        for (Token t : tokens) {
+                            sb.append(t.getPartOfSpeech() + " ");
+                            deprels.addAll(t.connectedEdges(DependencyRelation.class).toList());
+                        }
+
+                        for (DependencyRelation deprel : deprels) {
+                            sb.append(deprel.getRelation() + " ");
+                        }
+                        writer.write(sb.toString() + '\n');
+                        writer2.write(sentence.toString() + '\n');
                     }
-                    writer.write(sb.toString() + '\n');
-                    writer2.write(sentence.toString() + '\n');
                 }
+                writer.close();
+                writer2.close();
+            } catch (IOException e) {
+                e.printStackTrace();
             }
-            writer.close();
-            writer2.close();
-        } catch (IOException e) {
-            e.printStackTrace();
+        } else {
+            System.out.println("Missing file name.");
         }
     }
 }

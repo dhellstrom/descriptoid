@@ -7,6 +7,10 @@ import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
+/**
+ * Used to read a file so that it can be used as a Docforia document.
+ * Can read both files on json-format and on binary format.
+ */
 public class DocforiaReader {
 
     public static Document readJsonFile(Path path) {

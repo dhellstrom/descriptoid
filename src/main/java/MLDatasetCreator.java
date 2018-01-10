@@ -2,35 +2,31 @@ import se.lth.cs.docforia.Document;
 import se.lth.cs.docforia.graph.text.DependencyRelation;
 import se.lth.cs.docforia.graph.text.Sentence;
 import se.lth.cs.docforia.graph.text.Token;
-import se.lth.cs.docforia.query.EdgeTVar;
 import se.lth.cs.docforia.query.NodeTVar;
 import se.lth.cs.docforia.query.StreamUtils;
 
-import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.nio.file.StandardOpenOption;
-import java.util.*;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+/**
+ * Used to create the initial seed dataset to be used in a machine learning classifier. Overwrites
+ * the data in "ML_Dataset.txt", so do not use this if you have a good dataset in that file.
+ */
 public class MLDatasetCreator {
     public static void main(String[] args) {
 
         try {
             BufferedWriter writer = Files.newBufferedWriter(Paths.get("ML_Dataset.txt"));
             Stream<Path> filePaths = Files.walk(Paths.get("annotations/"));
-
-//            BufferedReader reader = Files.newBufferedReader(Paths.get("ML_annotations.txt"));
-//            List<Integer> annotations = new ArrayList<>();
-//            String line;
-//            while ((line = reader.readLine()) != null) {
-//                annotations.add(Integer.parseInt(line));
-//            }
-//            reader.close();
 
             int positives = 0;
             int negatives = 0;

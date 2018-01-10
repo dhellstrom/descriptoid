@@ -1,0 +1,39 @@
+farintosh	happy 
+fareham	unknown 
+lestrade	bent_head afraid afraid not_over-tender 
+englishman	bold murderous 
+peter jones	correct 
+grimesby roylott	clinched_fists 
+briony lodge	prompt 
+mary holder	first interested 
+jephro rucastle	not_mad happy 
+frank	dead 
+miss turner	ill averse glad 
+john openshaw	sorry thin_hands white_hands 
+mccarthys	fond 
+miss stoner	safe 
+vincent spaulding	willing glad 
+near lee	angry kind sober 
+toller	drunk free drunk drunk 
+miss hunter	not_surprised good 
+becher	thin 
+-- neville	alive 
+logic	rare 
+james ryder	parched_lips pale round_feet 
+john horner	innocent 
+mother	true angry alive 
+hosmer angel	right older own_eyes good independent 
+flora millar	american independent quiet afraid afraid responsible 
+neville st. clair	more mad 
+sarasate	thin_knees hawk-like_nose 
+breckinridge	able 
+lord st. simon	angry sick glad sorry 
+sherlock holmes	quick_eye glad aware aware able not_gracious good good silent_lips motionless_lips blind indebted fancy prompt not_communicative not_rich annoyed young weak_eyes afraid late sorry delighted bright_eyes little_eyes clenched_hands bent_head bent_eyes late late depressed hungry bent strong afraid mistaken hot long_neck sinewy_neck fancy silent thin_legs long_legs sure ready mistaken long_legs thin_legs glad able not_bulky silent open trivial fancy anxious sure afraid surprised fancy young pale pale inclined afraid correct aware much sure own_hair bottom_hair observant rude frightened foolish frightened sure sure glad luxuriant mad aware aware alive dead able deep wrong long_arm young heavy_eyes successful 
+charles mccarthy	anxious young averse excited right_hand 
+arthur conan doyle	innocent 
+jabez wilson	good candid 
+stoke moran manor house	possible 
+lucy parr	generous angry sure usual wide 
+watson	happy sallow_cheeks thin_hands long_hands own_head not_joking 
+fenchurch street	vague 
+mark	averse other_hand innocent 

@@ -13,11 +13,11 @@ public class AnnotateAndSave {
             String fileName = args[0] + ".txt";
 
             System.out.println(fileName);
-            Novel novel = GutenbergReader.readNovel(Paths.get("test_corpus/" + fileName));
+            Novel novel = GutenbergReader.readNovel(Paths.get("corpus/" + fileName));
             byte[] binary = HttpRequester.requestBinary(novel.getContent());
 
             try {
-                OutputStream writer = Files.newOutputStream(Paths.get("test_annotations/" + fileName));
+                OutputStream writer = Files.newOutputStream(Paths.get("annotations/" + fileName));
                 writer.write(binary);
                 writer.close();
             } catch (IOException e) {

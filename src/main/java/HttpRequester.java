@@ -3,6 +3,10 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLEncoder;
 
+/**
+ * Sends POST-requests to the Langforia API. Used to annotate text. Can request results on both
+ * binary and json format.
+ */
 public class HttpRequester {
 
     public static String requestJSON(String query) {
@@ -37,6 +41,8 @@ public class HttpRequester {
         }
         return buffer.toByteArray();
     }
+
+
 	private static InputStream sendPost(String query, String returnType) throws Exception {
         String url = "http://vilde.cs.lth.se:9000/en/default/api/" + returnType;
         URL obj = new URL(url);
@@ -44,7 +50,6 @@ public class HttpRequester {
 
         //add reuqest header
         con.setRequestMethod("POST");
-        // con.setRequestProperty("User-Agent", USER_AGENT);
 
         con.setRequestProperty("Content-Type", "text/plain; charset=utf-8");
 
@@ -60,36 +65,4 @@ public class HttpRequester {
 
         return con.getInputStream();
     }
-
-	private static void sendGet() throws Exception {
-
-		String url = "http://vilde.cs.lth.se:9000/en/";
-
-		URL obj = new URL(url);
-		HttpURLConnection con = (HttpURLConnection) obj.openConnection();
-
-		// optional default is GET
-		con.setRequestMethod("GET");
-
-		//add request header
-		// con.setRequestProperty("User-Agent", USER_AGENT);
-
-		int responseCode = con.getResponseCode();
-		System.out.println("\nSending 'GET' request to URL : " + url);
-		System.out.println("Response Code : " + responseCode);
-
-		BufferedReader in = new BufferedReader(
-		        new InputStreamReader(con.getInputStream()));
-		String inputLine;
-		StringBuffer response = new StringBuffer();
-
-		while ((inputLine = in.readLine()) != null) {
-			response.append(inputLine);
-		}
-		in.close();
-
-		//print result
-		System.out.println(response.toString());
-
-	}
 }
